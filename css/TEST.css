@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+/* Material colorset */
+/*@import url("https://codepen.io/centurianii/pen/XWxZbye.css");*/
+/* page setup */
+@import url("https://codepen.io/centurianii/pen/QWZVRLd.css");
+
+/********************/
+/*** Plugin Start ***/
+/********************/
+/**
+ * Tabs Root
+ * ---------
+ */
+.xucbIe5e7EccxiLpC3sBY1Un {
+   --background: transparent;
+   --shaded-background: #fff;
+   --shaded-background-rgb: 255, 255, 255;
+   --shaded-background-inactive: #d9d9d9;
+   --shaded-background-inactive-rgb: 217, 217, 217;
+   --shaded-background-hover: #f2f2f2;
+   --shaded-background-hover-rgb: 242, 242, 242;
+   --tabs-outline-width: 2px;
+   --tabs-radius: 4px;
+   --tabs-top-line-color: #1784c7;
+   --tabs-top-line-width: 2px;
+   --tabs-outline-color: #ccc;
+   --tabs-outline-material-color: #6eb9f7;
+   --content-outline-width: 2px;
+   --content-outline-color: #ccc;
+   --content-outline-material-color: #6eb9f7;
+   display: flex;
+   flex-direction: row; /* primary axis, var ltr */
+   justify-content: flex-start; /* primary axis */
+   align-items: stretch; /* cross axis */
+	flex-wrap: wrap;
+}
+.xucbIe5e7EccxiLpC3sBY1Un > label {
+   flex-shrink: 1;
+   flex-grow: 1; /* Default alignment (justify - full width) */
+}
+.xucbIe5e7EccxiLpC3sBY1Un > .tab {
+   order: 100; /* Put the content below the labels */
+}
+
+/**
+ * Radios
+ * ------
+ */
+.xucbIe5e7EccxiLpC3sBY1Un > input {
+   display: none;
+}
+
+/**
+ * Labels
+ * ------
+ */
+.xucbIe5e7EccxiLpC3sBY1Un > label {
+   order: 1;
+   z-index: 2; /* above content! */
+   display: block;
+   margin-top: 0.5rem;
+   padding: 1rem 2rem;
+   border: var(--tabs-outline-width) solid transparent;
+   margin-bottom: calc(-1 * var(--content-outline-width));
+   cursor: pointer;
+   background: var(--background);
+   font-weight: bold;
+   transition: all 0.3s ease-in;
+}
+.xucbIe5e7EccxiLpC3sBY1Un > input[type="radio"]:checked + label {
+   cursor: default;
+}
+
+/**
+ * Class: "round-corners"
+ * ----------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.round-corners > label {
+   border-radius: var(--tabs-radius) var(--tabs-radius) 0 0;
+}
+/*** End: Class "round-corners" ***/
+
+/**
+ * Tabs Content
+ * ------------
+ */
+.xucbIe5e7EccxiLpC3sBY1Un > .tab {
+   flex-grow: 1;
+   width: 100%;
+   border: var(--content-outline-width) solid transparent;
+   display: none;
+   overflow: auto;
+   position: relative;
+   z-index: 1; /* below labels! */
+   animation: fadein 0.4s;
+   padding: 1rem;
+   background: var(--background);
+}
+@keyframes fadein {
+   from {
+      opacity:0;
+   }
+   to {
+      opacity:1;
+   }
+}
+.xucbIe5e7EccxiLpC3sBY1Un > input:checked + label + .tab {
+   display: block;
+}
+
+/**
+ * Media Query
+ * -----------
+ */
+@media (max-width: 450px) {
+   .xucbIe5e7EccxiLpC3sBY1Un > label {
+      width: 100%;
+  }
+}
+
+/**
+ * Class: "accordeon-vertical"
+ * ---------------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.accordeon-vertical > label {
+   width: 100%;
+ }
+.xucbIe5e7EccxiLpC3sBY1Un.accordeon-vertical > .tab {
+   order: 1; /* Put the content in line with the labels */
+}
+/* triangle shape */
+[class^=triangle-]{
+   width: 0; 
+   height: 0; 
+   display: inline-block;
+   vertical-align: middle;
+   position: relative;
+   float: right;
+   transition: all 0.4s ease-in-out;
+}
+.triangle-right {
+   border-top: 0.4rem solid transparent;
+   border-left: 0.4rem solid; 
+   border-bottom: 0.4rem solid transparent;
+}
+/* animate triangle */
+.xucbIe5e7EccxiLpC3sBY1Un.accordeon-vertical > input:checked + label > [class^=triangle-] {
+   transform: rotate(90deg);
+}
+/* arrow shape */
+[class^=arr-]{
+   border: solid currentColor;
+   border-width: 0 0.2rem 0.2rem 0;
+   display: inline-block;
+   vertical-align: middle;
+   padding: .2rem;
+   position: relative;
+   float: right;
+   transition: all 0.4s ease-in-out;
+}
+.arr-right {
+   transform:rotate(-45deg);
+}
+/* animate arrow */
+.xucbIe5e7EccxiLpC3sBY1Un.accordeon-vertical > input:checked + label > [class^=arr-] {
+   transform:rotate(45deg);
+}
+/*** End: Class "accordeon-vertical" ***/
+
+/**
+ * Class: "tabs-rtl"
+ * -----------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl {
+   flex-direction: row-reverse; /* var ltr */
+}
+/*** End: Class "tabs-rtl" ***/
+
+/**
+ * Class: "tabs-align-left"
+ * ------------------------
+ * Default for ltr direction!
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-left > label {
+   flex-grow: 0;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl.tabs-align-left > label:first-of-type {
+   margin-right: auto!important;
+}
+/*** End: Class "tabs-align-left" ***/
+
+/**
+ * Class: "tabs-align-right"
+ * -------------------------
+ * Default for rtl direction!
+ * If undesirable delete this block!
+ */ 
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-right > label {
+   flex-grow: 0;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-right > label:first-of-type {
+   margin-left: auto!important;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl.tabs-align-right > label:first-of-type {
+   margin-left: 0!important; /* reset previous! */
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl.tabs-align-right > label:last-of-type {
+   margin-left: auto!important;
+}
+/*** End: Class "tabs-align-right" ***/
+
+/**
+ * Class: "tabs-align-center"
+ * --------------------------
+ * If undesirable delete this block!
+ */ 
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-center > label {
+   flex-grow: 0;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-center > label:first-of-type {
+   margin-left: auto!important;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-center > label:last-of-type {
+   margin-right: auto!important;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl.tabs-align-center > label:first-of-type {
+   margin-left: 0!important; /* reset previous! */
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-center > label:last-of-type {
+   margin-right: 0!important; /* reset previous! */
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl.tabs-align-center > label:first-of-type {
+   margin-right: auto!important;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-rtl.tabs-align-center > label:last-of-type {
+   margin-left: auto!important;
+}
+/*** End: Class "tabs-align-center" ***/
+
+/**
+ * Class: "tabs-align-center-solo"
+ * -------------------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-center-solo > label {
+   flex-grow: 0;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-align-center-solo > label {
+   margin-left: auto!important;
+   margin-right: auto!important;
+}
+/*** End: Class "tabs-align-center-solo" ***/
+
+/**
+ * Class: "tabs-top-line"
+ * ----------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-top-line > label {
+   position: relative;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-top-line > label::after {
+   content: "";
+   background: var(--tabs-top-line-color);
+   height: var(--tabs-top-line-width);
+   position: absolute;
+   width: 100%;
+   left: 0px;
+   top: calc(-1 * var(--tabs-top-line-width));
+   transition: all 250ms ease 0s;
+   transform: scale(0);
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-top-line > input:checked + label::after, 
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-top-line > input + label:hover::after {
+   transform: scale(1);
+}
+/*** End: Class "tabs-top-line" ***/
+
+/**
+ * Class: "tabs-outline"
+ * ---------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-outline > label {
+   border: var(--tabs-outline-width) solid var(--tabs-outline-color);
+}
+.xucbIe5e7EccxiLpC3sBY1Un.tabs-outline > input:checked + label {
+   border-bottom: var(--tabs-outline-width) solid transparent;
+}
+@media (max-width: 450px) {
+   /* all but the last have a single bottom line whatever their state! */
+   .xucbIe5e7EccxiLpC3sBY1Un.tabs-outline > :not(label:last-of-type) {
+      border-bottom: var(--tabs-outline-width) solid transparent;
+   }
+}
+/*** End: Class "tabs-outline" ***/
+
+/**
+ * Class: "content-outline"
+ * ------------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.content-outline > .tab {
+   border: var(--content-outline-width) solid var(--content-outline-color);
+   /*border-top: 2px solid transparent;*/
+}
+/*** End: Class "content-outline" ***/
+
+/**
+ * Class: "shaded"
+ * ---------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.shaded > label {
+   background: var(--shaded-background-inactive);
+}
+.xucbIe5e7EccxiLpC3sBY1Un.shaded > input:checked + label {
+  background: var(--shaded-background);
+}
+.xucbIe5e7EccxiLpC3sBY1Un.shaded > :not(input:checked) + label:hover {
+  background-color: var(--shaded-background-hover);
+}
+.xucbIe5e7EccxiLpC3sBY1Un.shaded > .tab {
+  background: var(--shaded-background);
+}
+/*** End: Class "shaded" ***/
+
+/**
+ * Class: "op-70"
+ * --------------
+ * If undesirable delete this block!
+ */
+/* labels */
+.xucbIe5e7EccxiLpC3sBY1Un.shaded.op-70 > input:checked + label {
+  background: rgba(var(--shaded-background-rgb), 0.7);
+}
+/* inactive labels */
+.xucbIe5e7EccxiLpC3sBY1Un.shaded.op-70 > label {
+   background: rgba(var(--shaded-background-inactive-rgb), 0.7);
+}
+/* label hover */
+.xucbIe5e7EccxiLpC3sBY1Un.shaded.op-70 > :not(input:checked) + label:hover {
+  background-color: rgba(var(--shaded-background-hover-rgb), 0.7);
+}
+/* tab content */
+.xucbIe5e7EccxiLpC3sBY1Un.shaded.op-70 > .tab {
+  background: rgba(var(--shaded-background-rgb), 0.7);
+}
+/* blur */
+.xucbIe5e7EccxiLpC3sBY1Un.shaded.op-70 > input + label, 
+.xucbIe5e7EccxiLpC3sBY1Un.shaded.op-70 > .tab {
+  backdrop-filter: blur(5px);
+}
+/*** End: Class "op-70" ***/
+
+/**
+ * Class: "slide-right"
+ * -------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.slide-right > .tab {
+  animation: slideright 0.4s ease-in-out;
+}
+@keyframes slideright {
+    from {
+      opacity:0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity:1;
+      transform: translateX(0);
+    }
+}
+/*** End: Class "slide-right" ***/
+
+/**
+ * Class: "slide-left"
+ * -------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.slide-left > .tab {
+  animation: slideleft 0.4s ease-in-out;
+}
+@keyframes slideleft {
+    from {
+      opacity:0;
+      transform: translateX(10px);
+    }
+    to {
+      opacity:1;
+      transform: translateX(0);
+    }
+}
+/*** End: Class "slide-left" ***/
+
+/**
+ * Class: "slide-bottom"
+ * ---------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.slide-bottom > .tab {
+  animation: slidebottom 0.4s ease-in-out;
+}
+@keyframes slidebottom {
+    from {
+      opacity:0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity:1;
+      transform: translateY(0);
+    }
+}
+/*** End: Class "slide-bottom" ***/
+
+/**
+ * Class: "slide-top"
+ * ------------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.slide-top > .tab {
+  animation: slidetop 0.4s ease-in-out;
+}
+@keyframes slidetop {
+    from {
+      opacity:0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity:1;
+      transform: translateY(0);
+    }
+}
+/*** End: Class "slide-top" ***/
+
+/**
+ * Class: "material"
+ * -----------------
+ * If undesirable delete this block!
+ */
+.xucbIe5e7EccxiLpC3sBY1Un.material > label {
+  color: white;
+  background: #6eb9f7!important;
+  transition: background 0.8s;
+}
+.xucbIe5e7EccxiLpC3sBY1Un.material > label:hover {
+  /* if you remove basic background color #47a7f5 then shaded with opacity takes over in transition effect! */
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/1%!important; /* prominent color: gradient #47a7f5 */
+}
+.xucbIe5e7EccxiLpC3sBY1Un.material > input:checked + label {
+  transition: background 0.8s;
+  background: #2196f3 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%!important;  /* prominent color: #2196f3 */
+}
+/* tabs-outline */
+.xucbIe5e7EccxiLpC3sBY1Un.material.tabs-outline > label {
+  border: var(--tabs-outline-width) solid var(--tabs-outline-material-color);
+}
+.xucbIe5e7EccxiLpC3sBY1Un.material.tabs-outline > input:checked + label {
+  border-bottom: var(--tabs-outline-width) solid transparent;
+}
+@media (max-width: 450px) {
+   /* all but the last have a single bottom line whatever their state! */
+   .xucbIe5e7EccxiLpC3sBY1Un.tabs-outline > :not(label:last-of-type) {
+      border-bottom: var(--tabs-outline-width) solid transparent;
+   }
+}
+/* content-outline */
+.xucbIe5e7EccxiLpC3sBY1Un.material.content-outline > .tab {
+  border: var(--content-outline-width) solid var(--content-outline-material-color);
+  /*border-top: 2px solid transparent;*/
+}
+/*** End: Class "material" ***/
+/******************/
+/*** Plugin End ***/
+/******************/
+
+/* Page Setup */
+.background1 {
+  background: url(https://source.unsplash.com/j3TrGxN_rCM) no-repeat center center / cover;
+  padding: 20px;
+}
+.background2 {
+  background: url(https://source.unsplash.com/6koHndOscBg) no-repeat center center / cover;
+  padding: 20px;
+}
+.background3 {
+  background: url(https://source.unsplash.com/JHMDtWaNZaA) no-repeat center center / cover;
+  padding: 20px;
+}
+.background4 {
+  background: url(https://source.unsplash.com/VTuCw9CbB6Y) no-repeat center center / cover;
+  padding: 20px;
+}
