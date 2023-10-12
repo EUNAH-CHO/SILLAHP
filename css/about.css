@@ -86,6 +86,12 @@
 }
 /* E:header */
 
+
+
+
+
+
+
 /* S:회사소개>회사개요 style */
 /* S:section01 */
 h2 {
@@ -117,7 +123,7 @@ h2 {
   display: block;
   text-align: center;
   margin: 5% 0 3%;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid black;
 }
 /* E:section01 */
 
