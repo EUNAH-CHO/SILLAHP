@@ -657,13 +657,9 @@ a{color:#2980B9; text-decoration:none;}
     width: 50%;
     border-bottom: 1px solid #4A9EED;
     padding: 0 0 10px 0;
-    margin-bottom: 0 auto 20px;
+    margin-bottom: 20px;
     color: #444;
     font-weight: 400;
-	text-align: center;
-}
-.R_B_STEEL02_content p {
-	text-align: center;
 }
 .R_B_STEEL02_content table {
     width: 1500px;
