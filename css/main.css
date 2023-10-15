@@ -94,7 +94,7 @@ i, em {font-style: normal;}
 
 /* 전체 화면 Scroll */
 body::-webkit-scrollbar {
-    width: 5px;  /* 스크롤바의 너비 */
+    width: 10px;  /* 스크롤바의 너비 */
 }
 body::-webkit-scrollbar-thumb {
     height: 30%; /* 스크롤바의 길이 */
