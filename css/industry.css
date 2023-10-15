@@ -617,6 +617,17 @@ a{color:#2980B9; text-decoration:none;}
 /* E:수산유통 탭페이지 */
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* S:철강 탭페이지 ----------------------------------------------------------------------*/
 .R_B_Steel_visualImg {
     max-width: 1500px; height: 600px; margin: 0 auto;
@@ -646,9 +657,13 @@ a{color:#2980B9; text-decoration:none;}
     width: 50%;
     border-bottom: 1px solid #4A9EED;
     padding: 0 0 10px 0;
-    margin-bottom: 20px;
+    margin-bottom: 0 auto 20px;
     color: #444;
     font-weight: 400;
+	text-align: center;
+}
+.R_B_STEEL02_content p {
+	text-align: center;
 }
 .R_B_STEEL02_content table {
     width: 1500px;
