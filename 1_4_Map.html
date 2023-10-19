@@ -447,6 +447,13 @@
 
 		// 아래 코드는 지도 위의 마커를 제거하는 코드입니다
 		// marker.setMap(null);
+
+		// 지도에 교통정보를 표시하도록 지도타입을 추가합니다
+		map.addOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);    
+
+		// 아래 코드는 위에서 추가한 교통정보 지도타입을 제거합니다
+		// map.removeOverlayMapTypeId(kakao.maps.MapTypeId.TRAFFIC);    
+		
 		// E: 카카오지도
 
 	</script>
