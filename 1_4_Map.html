@@ -251,7 +251,7 @@
 					</div>
 				</div>
 			</div> -->
-            		<div id="map" style="width:100%;"></div>
+            		<div id="map" style="width:100%;height:450px;"></div>
 			<!-- E: 신라교역 본사 지도부분 -->
 
 
@@ -297,7 +297,7 @@
 					</div>
 				</div>
 			</div>-->
-			<div id="map2" style="width:100%;"></div>
+			<div id="map2" style="width:100%;height:450px;"></div>
 			<!-- E: 신라교역 부산지사 지도부분 -->
 			
 			<div>
@@ -416,21 +416,17 @@
 		    mapOption = { 
 		        center: new kakao.maps.LatLng(37.56832404989124, 127.1597688081034), // 신라교역 지도의 중심좌표
 		        level: 3 // 지도의 확대 레벨
-		    };
-		
-		// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-		var map = new kakao.maps.Map(mapContainer, mapOption);
+		    };				
+		var map = new kakao.maps.Map(mapContainer, mapOption);// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
 		// E: 카카오지도 - 본사
 		
 		// S: 카카오지도	- 부산지사
-		/*var mapContainer = document.getElementById('map2'), // 지도를 표시할 div 
+		var mapContainer = document.getElementById('map2'), // 지도를 표시할 div 
 		    mapOption = { 
 		        center: new kakao.maps.LatLng(35.1036, 129.0369), // 신라교역 부산지사 지도의 중심좌표
 		        level: 3 // 지도의 확대 레벨
-		    };
-		
-		// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-		var map2 = new kakao.maps.Map(mapContainer, mapOption);*/
+		    };				
+		var map2 = new kakao.maps.Map(mapContainer, mapOption);// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
 		// E: 카카오지도 - 부산지사
 
 	</script>
