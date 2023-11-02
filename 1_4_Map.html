@@ -571,6 +571,18 @@
                 // 마커가 지도 위에 표시되도록 설정합니다
                 marker.setMap(map2);
 
+	// 마커가 지도 위에 표시되도록 설정합니다
+                marker.setMap(map2);
+                var iwContent = '<div style="padding:5px;">신라교역 부산지사 <br><a href="https://map.kakao.com/link/map/신라교역 부산지사,35.1036, 129.0369" style="color:#238CFA; padding-right:5px;" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/신라교역 부산지사,35.1036, 129.0369" style="color:#238CFA" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+                    iwPosition = new kakao.maps.LatLng(35.1036, 129.0369); //인포윈도우 표시 위치입니다
+                // 인포윈도우를 생성합니다
+                var infowindow = new kakao.maps.InfoWindow({
+                    position : iwPosition, 
+                    content : iwContent 
+                });            
+                // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+                infowindow.open(map2, marker); 
+
 		// E: 카카오지도 - 부산지사
 
 
