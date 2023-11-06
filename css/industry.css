@@ -107,13 +107,98 @@
 }
 .Marine h4 { 
     border-bottom:3px solid #4A9EED;
-    width: 300px;
+    width: 40%;
     text-align: left;
     margin: 0 0 10px 0; padding: 15px 25px;
+}
+.marine_cont2 h5 {
+    margin-bottom: 30px;
 }
 .marine_cont1 p {
     text-align: left; padding: 15px 25px;
 }
+.marine_cont1 p span {
+    color: #4A9EED;
+}
+.ship_cont {
+    width: 100%; height: 400px;
+    background-color: #F7F7F7;
+    margin-bottom: 50px;
+}
+.ship_cont_wrap {
+    max-width: 1200px; margin: 0 auto;
+}
+.ship_content {
+    width: 50%; float: left;
+}
+
+/* S:선박사진 img hover */
+.ship_content .container {
+    position: relative;
+    width: 95%;
+    height: 400px;
+  }  
+  .ship_content .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+    border-radius: 50px;
+  }  
+  .ship_content .container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 50px;
+  }  
+  .ship_content img {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    border-radius: 50px;
+  }  
+  .ship_content .title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 140px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }  
+  .ship_content .container:hover .title {
+    opacity: 1;
+  }  
+  .ship_content .ship_detail {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 230px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0;
+    color: white;
+    transition: opacity .35s ease;
+  }  
+  .ship_content .container:hover .ship_detail {
+    opacity: 1;
+  }
+  .ship_detail span {
+    color: #7dffc9; 
+    font-weight: bold;
+    padding-right:  20px;
+  }
+  /* E:선박사진 img hover */
+  
 /* E:참치선망선단 ----------------------------------------*/
 
 
@@ -140,7 +225,7 @@
 
 
 
-/* S:사업분야>원양어업 style ----------------------------------------*/
+/* S:사업분야>합작어업 style ----------------------------------------*/
 .Joint_visualBACK {
     background: url('../img/industry/joint/visual_img.png') no-repeat;
     background-size: cover;
@@ -149,7 +234,7 @@
     width: 100%;
     height: 500px;
 }
-/* E:사업분야>원양어업 style ----------------------------------------*/
+/* E:사업분야>합작어업 style ----------------------------------------*/
 
 
 
