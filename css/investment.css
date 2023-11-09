@@ -1,9 +1,11 @@
-/* 투자정보 style */
 @media screen and (max-width: 1280px) {
 
 }
 
 @media screen and (max-width: 840px) {
+    
+    .fz_s {font-size: 4vw !important; line-height: 1.4;}
+
     .hide-m {display: none !important;}
 
     .list-group table tbody td {text-align: left; padding-left: 7vw; font-size: 4vw;}
@@ -26,28 +28,76 @@
 
 .view-m {display: block !important;}
 
-.list-group table {width: 100%;}
-.list-group table:not(:last-child) {margin-bottom: 3.5rem;}
+.list-group table {
+    width: 100%;
+}
 
-#loop table a {color: rgb(99, 98, 98); text-decoration: none;}
-#loop tbody tr:hover {background-color: #eee; border-radius: 1.5rem;}
+.list-group table:not(:last-child) {
+    margin-bottom: 3.5rem;
+}
 
-.list-group table th {color: green; margin-bottom: 1rem;}
+#loop table a {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+}
 
-nav {width: 100%; margin: 0 auto; display: inline-block; text-align: center;}
-nav .pagination {list-style: none; margin-bottom: 3rem; display: inline-block;}
-nav .pagination li {display: inline-block;}
-nav .pagination li:not(:last-child) {margin-right: 2rem;}
-nav .pagination li a {padding: 5px 10px; text-decoration: none;}
+#loop tbody tr:hover {
+    background-color: #eee;
+    border-radius: 1.5rem;
+}
+
+.list-group table th {
+    color: green;
+    margin-bottom: 1rem;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .pagination {
+    list-style: none;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+nav .pagination li {
+    display: inline-block;
+}
+
+nav .pagination li:not(:last-child) {
+    margin-right: 2rem;
+}
+
+nav .pagination li a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
 
 .pagination > li > a, 
-.pagination > li > span {background-color: white; color: green; border-radius: 100%;}
+.pagination > li > span {
+    background-color: white;
+    color: green;
+    border-radius: 100%;
+}
+
 .pagination > .active > a, 
-.pagination > .active > span {background-color: rgb(223, 15, 15); border-color: rgb(223, 15, 15); color: white;}
+.pagination > .active > span {
+    background-color: rgb(223, 15, 15);
+    border-color: rgb(223, 15, 15);
+    color: white;
+}
 
 .container nav .pagination .current-page a:hover,
 .container nav .pagination .navi-previous a:hover,
-.container nav .pagination .navi-next a:hover {background-color: green; color: white; border-radius: 15px;}
+.container nav .pagination .navi-next a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
 
 #site-body h2 {
     text-align: center;
@@ -60,6 +110,7 @@ nav .pagination li a {padding: 5px 10px; text-decoration: none;}
 
 
 
+/* 투자정보 style */
 
 
 /* S:header */
@@ -136,3 +187,14 @@ nav .pagination li a {padding: 5px 10px; text-decoration: none;}
     color: #2980B9;
 }
 /* E:section01 */
+
+/* S:공시정보 */
+.Disclosure01 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+/* E:공시정보 */
