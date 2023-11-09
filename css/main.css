@@ -208,6 +208,38 @@ footer {
 .footer_list > .FooterArea { padding: 0 1rem; }
 .footer_list > .FooterArea:nth-child(1) p { font-size: 1.6rem; font-weight: 800; }
 .footer_list > .FooterArea:last-child {border:0;}
+/* footer {
+    font-size: 14px;
+}
+footer > div { float:left; }
+#footer {
+    padding: 4rem;
+    overflow: hidden;
+}
+.footer_logo { border:1px solid pink; float:left; height: 20vh; }
+.footer_list { max-width: 1300px; border:1px solid red; float:left; }
+.footer_list .FooterArea {border-right:1px solid #555; width: 30%; height: 20vh; }
+    .footer_list .FooterArea:last-child { 
+        width: 40%; border: 0;
+    }
+.FooterArea p, 
+    .FooterArea ul { margin: 0 15%; }
+    .FooterArea:nth-child(2) p {
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .FooterArea:nth-child(3) ul {
+        padding-top:45px;
+    }
+    .FooterArea:last-child p {
+        padding-top: 45px;
+        margin: 0 8%;
+    }
+    .FooterArea:last-child span {
+        display: block;
+        padding-top: 15px;
+    } */
 
 /* S:select box */
 .dropdown {
@@ -231,22 +263,6 @@ footer {
     text-align: left;
     background: #2f3336;
     padding: 7% 10%;
-}
-.footer_security {
-    display: inline-block;
-    margin-left: 180px;
-}
-.footer_security li { 
-    float: left; 
-    margin: 15px 0;
-    padding: 0 10px; 
-}
-.footer_security li:nth-child(1) {border-right: 1px solid rgb(102, 102, 102);}
-.footer_security li a, .footer_list li a {
-    color: white;
-}
-.footer_security li a:hover, .footer_list li a:hover {
-    color: #4A9EED;
 }
 /* E:select box */
 
