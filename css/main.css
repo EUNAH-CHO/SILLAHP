@@ -251,3 +251,26 @@ footer {
 /* E:select box */
 
 /* E:FOOTER */
+
+/* S:탭페이지 */
+.clearfix:before, .clearfix:after { 
+    content:" "; display:table; clear:both; height:0;
+}
+* html .clearfix {height:1%}
+.clearfix>li{float: left;}
+
+ul, li{list-style:none;}
+a{color:#2980B9; text-decoration:none;}
+
+.tab_menu {max-width:1500px; margin:34px auto 0;}
+.tab_menu ul li{
+    width:50%; 
+    text-align:center; line-height: 50px; 
+    background:#fff; border:1px solid #2980B9; box-sizing:border-box;
+    transition:0.5s all; 
+}
+
+.tab_menu ul li.active{background: #2980B9;}
+.tab_menu ul li.active a{color: #fff;}
+.tab_menu ul li {cursor:pointer;}
+/* E:탭페이지 */
