@@ -68,15 +68,7 @@
 
 /* S:first 페이지 */
 .first {
-    background-image: url('../img/aboutus_back.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-size: 100%;
-    background-color: black;
-}
-.first:hover {
-    background-size: 110%
+    clear: both;
 }
 /* E:first 페이지 */
 
@@ -92,6 +84,7 @@
 .second {
     background-color: #fff;
     margin-bottom: -100px;
+    clear: both;
 }
 .example {
     max-width: 1400px; margin: 50px auto;
@@ -260,7 +253,7 @@
         background-size: cover; background-position: center center; 
 }
 .main_banner div {
-    padding-top: 230px;
+    padding-top: 220px;
 }
 .main_banner a {
     color: #4A9EED;
@@ -298,10 +291,10 @@
 .thired_container {
     width: 33.3333333%; 
     float: left;
-    padding-right: 40px;
 }
 .third .content3 {
-    height: 310px;
+    width: 95%; height: 310px;
+    margin: 0 auto;
     border-radius: 50px; 
     box-shadow: 0px 0px 20px #e2e2e2;
     background-color: white;
