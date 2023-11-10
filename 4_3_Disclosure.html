@@ -376,15 +376,6 @@
                         
                         </tbody>
                     </table>
-                    <div class="subscript info">
-                        <p>정보제공: <a href="http://dart.fss.or.kr/" target="_blank">DART 전자공시시스템</a></p>
-                    </div>
-                    <!-- [D] .btn_more클릭 시, 테이블 tr리스트 추가 -->
-                     
-                    <div class="btn_area" id="getmore">
-                        <button type="button" class="btn_more" onclick="nextPageAdd();"><span class="blind">더보기</span></button>
-                    </div>
-
                 </div>
 
                 <!-- 경영공시 -->
@@ -489,5 +480,36 @@
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="js/creative.min.js"></script>
     <script src="js/main.js"></script>
+	<script language="JavaScript">
+				/*S:SelectBox dropdown	*/
+		$('.dropdown-menu').on( 'click', 'a', function() {
+			var text = $(this).html();
+			var htmlText = text + ' <span class="caret"></span>';
+			$(this).closest('.dropdown').find('.dropdown-toggle').html(htmlText);
+		});
+		/*E:SelectBox dropdown*/		
+
+
+        /* S:탭페이지 */
+        $(document).ready(function() {
+    
+            //Default Action
+            $(".stab_content").hide(); //Hide all content
+            $(".tab_menu li:first").addClass("active").show(); //Activate first tab
+            $(".stab_content:first").show(); //Show first tab content
+            
+            //On Click Event
+            $(".tab_menu li").click(function() {
+                $(".tab_menu li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".stab_content").hide(); //Hide all tab content
+                var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active content
+                return false;
+            });
+
+        });
+        /* E:탭페이지 */
+	</script>
   </body> 
 </html>
