@@ -221,3 +221,7 @@ a{color:#2980B9; text-decoration:none;}
 .tab_menu ul li.active a{color: #fff;}
 .tab_menu ul li {cursor:pointer;}
 /* E:탭페이지 */
+
+/* S:재무정보 */
+.tab_menu ul .F_I_tab_list {width: 25%;}
+/* E:재무정보 */
