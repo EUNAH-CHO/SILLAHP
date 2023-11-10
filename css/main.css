@@ -275,8 +275,8 @@ footer > div { float:left; }
 * html .clearfix {height:1%}
 .clearfix>li{float: left;}
 
-ul, li{list-style:none;}
-a{color:#2980B9; text-decoration:none;}
+.tab_menu ul, li{list-style:none;}
+.tab_menu a{color:#2980B9; text-decoration:none;}
 
 .tab_menu {max-width:1500px; margin:34px auto 0;}
 .tab_menu ul li{
