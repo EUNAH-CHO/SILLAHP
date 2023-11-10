@@ -237,16 +237,39 @@
 
     <div id="Investment_pages">
 		<h2>재무정보</h2>
+        <div class="borderArea"></div>
         <!-- section01 -->
-        <section class="Investment_first page">
-			<div class="borderArea"></div>
-            <h3>윤리강령</h3>
-            <p>신라교역(주) 임직원은 건전한 윤리의식을 강화하기 위해<br>
-				윤리강령을 바탕으로 매년 윤리서약을 실시하고 있습니다. 
-			</p>
-		<div style="text-align: center; display: inline-block; width: 45%;">
-	                    <iframe src="http://dart.fss.or.kr/html/search/SearchCompanyIR3_M.html?textCrpNM=%EC%8B%A0%EB%9D%BC%EA%B5%90%EC%97%AD" ,="" name="IR" scrolling="yes" frameborder="0" width="100%" height="940" marginheight="0" marginwidth="0"></iframe>
-			</div>
+        <section class="Disclosure01 page">
+            <div class="tab_menu">
+                <ul class="clearfix">
+                  <li class="F_I_tab_list"><a href="#tab01">요약재무정보 </a></li>
+                  <li class="F_I_tab_list"><a href="#tab02">재무상태표 </a></li>
+                  <li class="F_I_tab_list"><a href="#tab03">손익계산서 </a></li>
+                  <li class="F_I_tab_list"><a href="#tab04">현금흐름표 </a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <!-- 요약상태표 -->
+                <div id="tab01" class="stab_content" style="text-align: center; display: inline-block; width: 45%;">
+                    <iframe src="http://dart.fss.or.kr/html/search/SearchCompanyIR3_M.html?textCrpNM=%EC%8B%A0%EB%9D%BC%EA%B5%90%EC%97%AD" ,="" name="IR" scrolling="yes" frameborder="0" width="100%" height="940" marginheight="0" marginwidth="0"></iframe>
+                </div>
+
+                <!-- 재무상태표 -->
+                <div id="tab02" class="stab_content">
+                    <p>test2</p>
+                </div>
+
+                <!-- 손익계산서 -->
+                <div id="tab03" class="stab_content">
+                    <p>test3</p>
+                </div>
+
+                <!-- 현금흐름표 -->
+                <div id="tab04" class="stab_content">
+                    <p>test4</p>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -346,10 +369,8 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="js/creative.min.js"></script>
-	<script src="js/main.js"></script>
-
-
 	<script language="JavaScript">
+
 		/*S:SelectBox dropdown	*/
 		$('.dropdown-menu').on( 'click', 'a', function() {
 			var text = $(this).html();
@@ -357,6 +378,28 @@
 			$(this).closest('.dropdown').find('.dropdown-toggle').html(htmlText);
 		});
 		/*E:SelectBox dropdown*/		
-	</script>
+
+
+        /* S:탭페이지 */
+        $(document).ready(function() {
+    
+            //Default Action
+            $(".stab_content").hide(); //Hide all content
+            $(".tab_menu .F_I_tab_list:first").addClass("active").show(); //Activate first tab
+            $(".stab_content:first").show(); //Show first tab content
+            
+            //On Click Event
+            $(".tab_menu .F_I_tab_list").click(function() {
+                $(".tab_menu .F_I_tab_list").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".stab_content").hide(); //Hide all tab content
+                var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active content
+                return false;
+            });
+
+        });
+        /* E:탭페이지 */
+    </script>
   </body> 
 </html>
