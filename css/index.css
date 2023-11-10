@@ -69,6 +69,7 @@
 /* S:first 페이지 */
 .first {
     clear: both;
+    background-color: black;
 }
 /* E:first 페이지 */
 
