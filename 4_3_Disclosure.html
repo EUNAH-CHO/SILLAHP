@@ -29,6 +29,15 @@
 	<link href="css/investment.css" rel="stylesheet"> 
 	<link href="css/main.css" rel="stylesheet">
 
+    <script type="text/javascript" src="https://static.navercorp.com/static/libs/jquery/3.1.1/jquery.min.js"></script>
+    <meta property="og:title" content="NAVER 공시정보">
+    <meta property="og:description" content="네이버(주) 공시정보 안내">
+    <script type="text/javascript">
+        window.addEventListener('pageshow', function (event) {
+            lcs_do();
+        });
+    </script>
+
 </head>
 
 <body id="page-top" OnLoad="na_preload_img(false, 'img/button/about_view more_c.jpg', 'img/button/공지%20바로가기_on.PNG', 'img/button/공지 바로가기_on.PNG', 'img/button/홍보%20더%20보기.PNG', 'img/button/홍보 더 보기.PNG');">
@@ -339,12 +348,49 @@
                 <!-- DART 공시 -->
                 <div id="tab01" class="tab_content" style="text-align: center; display: inline-block; width: 45%;">
                     <iframe src="http://dart.fss.or.kr/html/search/SearchCompanyIR3_M.html?textCrpNM=%EC%8B%A0%EB%9D%BC%EA%B5%90%EC%97%AD" ,="" name="IR" scrolling="yes" frameborder="0" width="100%" height="940" marginheight="0" marginwidth="0"></iframe>
+                    <table class="investors_table type2" id="investors_table" >
+                        <caption>공시정보 목록 표</caption>
+                        <colgroup>
+                            <col style="width: 123px;">
+                            <col style="width: auto;">
+                            <col style="width: 193px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">제출일자</th>
+                                <th scope="col">공시제목</th>
+                                <th scope="col">제출의무자</th>
+                            </tr>
+                        </thead>										
+                        <tbody>
+                        
+                            
+                            <tr>
+                                <td class="date">2023-11-06</td>
+                                <td><a href="javascript:;" onclick="javascript:openDisclsViewer('20231106000065');" class="title ellipsis">임원ㆍ주요주주특정증권등소유상황보고서</a></td>
+                                <td class="ellipsis">
+                                     차동철
+                                </td>
+                            </tr>
+
+                        
+                        </tbody>
+                    </table>
+                    <div class="subscript info">
+                        <p>정보제공: <a href="http://dart.fss.or.kr/" target="_blank">DART 전자공시시스템</a></p>
+                    </div>
+                    <!-- [D] .btn_more클릭 시, 테이블 tr리스트 추가 -->
+                     
+                    <div class="btn_area" id="getmore">
+                        <button type="button" class="btn_more" onclick="nextPageAdd();"><span class="blind">더보기</span></button>
+                    </div>
+
                 </div>
 
                 <!-- 경영공시 -->
                 <div id="tab02" class="tab_content">
                     <p>test2</p>
-        	</div>
+            </div>
         </section>
     </div>
 
