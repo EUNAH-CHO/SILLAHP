@@ -225,4 +225,29 @@ a{color:#2980B9; text-decoration:none;}
 
 /* S:재무정보 */
 .tab_menu ul .F_I_tab_list {width: 25%;}
+
+.fn_list {
+    width: 100%;
+    margin: 0 0 30px auto;
+    text-align: center;
+    /* height : 500px; */
+    padding: 0;
+}
+
+.F_I_content th {
+    height: 40px;
+}
+.F_I_content td {
+    border-top: solid 1px #e5e5e5;
+    height: 40px;
+}
+
+.fn_list td:first-child {text-align: left; padding-left: 10px;}
+.fn_list td {text-align: right; padding-right: 10px;}
+.fn_list tr.em.main > td:first-child {text-align: center;}
+.fn_list tr:first-child {background-color: #4A9EED; color: white;}
+.fn_list tr:first-child > td {text-align: center; width: 25%;}
+.em {background: #EEEEEE;}
+
+.F_I_content a {text-indent: 2em;}
 /* E:재무정보 */
