@@ -1089,4 +1089,33 @@ a{color:#2980B9; text-decoration:none;}
 .map3_subway p {margin-top: 1rem; float: left; }
 .subway_text { float: left; line-height: 60px; margin-top: 40px; }
 
+
+/* S: 파파이스 */
+.Food_popeyes_visualImg {
+    max-width: 1500px; height: 600px; margin: 0 auto;
+    background: url('../img/industry/food/popeyes.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative; z-index: 1000;
+}
+.popeyes02_R {
+    float:left; width: 50%; padding: 195px 0;
+    background: url('../img/industry/food/popeyes_detail.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.popeyes04_cont1 {
+    width: 100%; padding: 200px 0; margin: 30px 0;
+    background: url('../img/industry/food/popeyes_photo01.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.popeyes04_cont2 {
+    width: 100%; padding: 200px 0;
+    background: url('../img/industry/food/popeyes_photo02.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+/* E: 파파이스 */
 /* E:사업분야>외식사업 style ----------------------------------------*/
