@@ -326,6 +326,7 @@
 
 /* S:third-PUBLIC RELATION 페이지 */
 .third {
+    width: 100%;
     overflow: hidden;
     padding-bottom: 100px;
     background: url('../img/main/third_back.PNG') no-repeat;
