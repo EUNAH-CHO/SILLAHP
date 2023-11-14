@@ -182,7 +182,6 @@ nav .pagination li a {
     margin: 0 auto;
     text-align: left;
     padding: 4rem 0 2rem;
-    height: 1100px;
 }
 .Investment_first_content span {
     color: #2980B9;
@@ -196,6 +195,7 @@ nav .pagination li a {
     margin: 0px auto;
     text-align: center;
 }
+.Disclousre01 page .content {height: 1100px;}
 
 
 /* E:공시정보 */
