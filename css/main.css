@@ -1,0 +1,291 @@
+/*---------------------------- 미디어 쿼리 ----------------------------*/
+/* 1200px ~ 100% width사이즈 */
+@media screen and (min-width: 1200px){
+    /* visual 애니메이션 */
+    @keyframes animate-plus { 
+        from {background-size: 180%; transition: .1s;}
+        to {background-size: 150%; transition: .1s;}
+    }
+    /* footer */
+    footer { padding: 4rem 4rem 15rem; }
+    .footer_list > .FooterArea { float:left; border-right:1px solid #555; }
+        .footer_list > .FooterArea:nth-child(2),
+        .footer_list > .FooterArea:nth-child(3) { height: 12vh; margin-top: 54px;}
+}
+/* 768px ~ 1200px */
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    /* visual 애니메이션 */
+    @keyframes animate-plus { 
+        from {background-size: 230%; transition: .1s;}
+        to {background-size: 200%; transition: .1s;}
+    }
+    /* footer */
+    footer { padding: 4rem 4rem 25rem; }
+    .footer_list {margin: 5% 0;}
+        .footer_list > .FooterArea { float:left; border-right:1px solid #555; }
+        .footer_list > .FooterArea:nth-child(2),
+        .footer_list > .FooterArea:nth-child(3) { height: 12vh; margin-top: 54px;}
+}
+/* 768px ~ 970px */
+@media screen and (min-width: 768px) and (max-width: 970px){
+    /* footer */
+    footer { padding: 4rem 4rem 35rem; }
+}
+/* 0 ~ 768px */
+@media screen and (max-width: 768px){
+    /* visual 애니메이션 */
+    @keyframes animate-plus { 
+        from {background-size: 730%; transition: .1s;}
+        to {background-size: 600%; transition: .1s;}
+    }
+    /* footer */
+    footer { padding: 4rem 4rem 42rem; }
+    .footer_list {margin: 10% auto;}
+        .footer_list > .FooterArea { border-bottom:1px solid #555; }
+        .footer_list > .FooterArea:nth-child(2),
+        .footer_list > .FooterArea:nth-child(3) { margin: 10px 0 5px;}
+        .dropdown {margin-top: 10%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* { border: 0; padding: 0; margin: 0; }
+a { text-decoration:none; }
+ul, li { list-style:none; }
+ol {margin-bottom: 0;}
+
+html, body {
+    color: #333;
+    background-color: #fff;
+    font-family: 'SUIT Variable', sans-serif;
+}
+.navbar {
+    font-weight: 700;
+}
+h1 { 
+    font-size: 55px; 
+    font-weight: 600; 
+    letter-spacing: -0.03em;
+}
+.header_subText {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+h2{
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}
+h3 {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.borderArea {
+    width:1px;
+    height: 70px;
+    border-left: 1px solid #2980b9;
+    margin: 0 auto 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 전체 화면 Scroll */
+body::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #4A9EED; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, 0);  /*스크롤바 뒷 배경 색상*/
+}
+/* scroll top 버튼 */
+
+
+
+
+
+/* 모바일 TOP 버튼 */
+ #scrollTopMob {
+    position: fixed;
+    bottom: 30px; /* 브라우저 아래쪽 끝에서부터의 거리 */
+    right: 15px; /* 브라우저 오른쪽 끝에서부터의 거리 */
+    z-index: 99;
+    cursor: pointer;
+ }
+ #scrollTopPc img {
+   display: none;
+ }
+
+@media screen and (min-width:1066px) {
+    #scrollTopMob {
+      position: fixed;
+      bottom: 30px; /* 브라우저 아래쪽 끝에서부터의 거리 */
+      right: 30px; /* 브라우저 오른쪽 끝에서부터의 거리 */
+      z-index: 99;
+      cursor: pointer;
+      /* background: #333; */
+      background: #4A9EED;
+      color: white;
+      padding: 10px;
+   }
+  /* PC TOP 버튼 */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* S:scroll down 애니메이션 */
+.bottom-scroll-down {
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 26px; margin: 50px auto 0;
+  height: 26px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  /* position: absolute; bottom: 400px; left: 49.35%; z-index: 999; */
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+    0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
+  @-moz-keyframes fade_move_down {
+    0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
+  @keyframes fade_move_down {
+    0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
+/* E:scroll down 애니메이션 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:FOOTER */
+footer {
+    background-color: black;
+    color: #eee;
+}
+.footer_logo, .footer_list {float:left;}
+.footer_list {margin-left: 3%;}
+.footer_list > .FooterArea { padding: 0 1rem; }
+.footer_list > .FooterArea:nth-child(1) p { font-size: 1.6rem; font-weight: 800; }
+.footer_list > .FooterArea:last-child {border:0;}
+/* footer {
+    font-size: 14px;
+}
+footer > div { float:left; }
+#footer {
+    padding: 4rem;
+    overflow: hidden;
+}
+.footer_logo { border:1px solid pink; float:left; height: 20vh; }
+.footer_list { max-width: 1300px; border:1px solid red; float:left; }
+.footer_list .FooterArea {border-right:1px solid #555; width: 30%; height: 20vh; }
+    .footer_list .FooterArea:last-child { 
+        width: 40%; border: 0;
+    }
+.FooterArea p, 
+    .FooterArea ul { margin: 0 15%; }
+    .FooterArea:nth-child(2) p {
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .FooterArea:nth-child(3) ul {
+        padding-top:45px;
+    }
+    .FooterArea:last-child p {
+        padding-top: 45px;
+        margin: 0 8%;
+    }
+    .FooterArea:last-child span {
+        display: block;
+        padding-top: 15px;
+    } */
+
+/* S:select box */
+.dropdown {
+    float: right;
+}
+.dropdown-menu {
+    max-height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 2px;
+}
+.dropdown-menu li {
+    padding: 5px 20px;
+}
+.caret {
+	  float: right;
+    margin-top: 5%;
+}
+#menu1 {
+    width: 200px; color: white;
+    text-align: left;
+    background: #2f3336;
+    padding: 7% 10%;
+}
+/* E:select box */
+
+/* E:FOOTER */
+
