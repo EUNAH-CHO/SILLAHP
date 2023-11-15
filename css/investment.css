@@ -234,6 +234,7 @@ a{color:#2980B9; text-decoration:none;}
     padding: 0;
 }
 
+.F_I_content {max-width: 1500px;}
 .F_I_content th {
     height: 40px;
 }
