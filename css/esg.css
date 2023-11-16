@@ -843,4 +843,75 @@ html, body {font-family: "GmarketSansMedium", sans-serif;}*/
 }
 /* E:드롭다운 슬라이드 */
 /* E:환경정책 탭 */
+
+/* S: 지배구조 */
+
+#Investment_pages h2 {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2%;
+    color: #000;
+    font-weight: 700;
+}
+/* S:section01 */
+.Investment_first {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto; 
+    text-align: center;
+}
+.borderArea {
+    width:1px;
+    height: 70px;
+    border-left: 1px solid #2980b9;
+    margin: 0 auto 2rem;
+}
+.Investment_first h3 { padding-bottom: 1rem; }
+.Investment_first_cont_wrap {
+    background-color: #F6F8F8;
+    width: 100%;
+    margin-top: 4rem;
+}
+.Investment_first_content {
+    width: 40%; 
+    margin: 0 auto;
+    text-align: left;
+    padding: 4rem 0 2rem;
+}
+.Investment_first_content span {
+    color: #2980B9;
+}
+
+.Disclosure01 {
+    max-width: 1500px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+.fn_list {
+    width: 100%;
+    margin: 0 0 30px auto;
+    text-align: center;
+    /* height : 500px; */
+    padding: 0;
+}
+
+.F_I_content {max-width: 1500px;}
+.F_I_content h3, p {text-align: left;}
+.F_I_content th {height: 40px;}
+.F_I_content td {
+    border-top: solid 1px #e5e5e5;
+    height: 40px;
+}
+
+.fn_list thead {background-color: #4A9EED; color: white;}
+.fn_list tr.em.main > td:first-child {text-align: center;}
+.fn_list td {text-align: center;}
+.em {background: #EEEEEE;}
+
+.F_I_content a {text-indent: 2em;}
+/* E: 지배구조 */
 /* S:지속가능경영>활동----------------------------------------------- */
