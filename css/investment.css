@@ -190,6 +190,7 @@ nav .pagination li a {
 
 /* S:공시정보 */
 .Disclosure01 {
+    max-width: 1500px;
     width: 100%;
     overflow: hidden;
     margin: 0px auto;
