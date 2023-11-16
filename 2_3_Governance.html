@@ -1236,7 +1236,7 @@
 		});
 		/*E:SelectBox dropdown*/
 
-        /* S:탭페이지 */     
+        /* S:탭페이지 */        
         $(document).ready(function() {
             //Default Action
             $(".stab_content").hide(); //Hide all content
@@ -1254,6 +1254,34 @@
             });
         });
         /* E:탭페이지 */
+
+        /* S:드롭다운 슬라이드 */
+        'use strict';
+        $(document).on('click', '.accordion-list .accordion-item > a', function(e){
+            e.preventDefault();
+            var $this = $(this);
+            var target = $this.parent();
+            var description = $this.siblings('.accordion-desc');
+            var other = target.siblings('.accordion-item');
+            var otherDescription = other.find('.accordion-desc');
+            accordionToggle(target, description, other, otherDescription);
+            });
+
+            function accordionToggle(target, description, other, otherDescription){
+            if (target.hasClass('active')) {
+                target.removeClass('active');
+                description.stop().slideUp(300);
+            } else {
+                target.addClass('active');
+                description.stop().slideDown(300);
+            }
+
+            if (other && otherDescription) {
+                other.removeClass('active');
+                otherDescription.stop().slideUp(300);
+            }
+        };
+        /* E:드롭다운 슬라이드 */
 	</script>
   </body> 
 </html>
