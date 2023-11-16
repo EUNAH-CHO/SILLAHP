@@ -471,7 +471,7 @@
 }
 
 .esg_content {
-    max-width: 1200px; margin: 200px auto;
+    max-width: 1200px; width: 98%; margin: 130px auto;
     padding: 50px 200px 45px; 
     color: rgb(240, 242, 247);
     background-color: rgb(35, 75, 187);
