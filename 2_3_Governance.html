@@ -707,7 +707,26 @@
 			var htmlText = text + ' <span class="caret"></span>';
 			$(this).closest('.dropdown').find('.dropdown-toggle').html(htmlText);
 		});
-		/*E:SelectBox dropdown*/		
+		/*E:SelectBox dropdown*/
+
+        /* S:탭페이지 */     
+        $(document).ready(function() {
+            //Default Action
+            $(".stab_content").hide(); //Hide all content
+            $(".tab_menu .F_I_tab_list:first").addClass("active").show(); //Activate first tab
+            $(".stab_content:first").show(); //Show first tab content
+            
+            //On Click Event
+            $(".tab_menu .F_I_tab_list").click(function() {
+                $(".tab_menu .F_I_tab_list").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //Add "active" class to selected tab
+                $(".stab_content").hide(); //Hide all tab content
+                var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+                $(activeTab).fadeIn(); //Fade in the active content
+                return false;
+            });
+        });
+        /* E:탭페이지 */
 	</script>
   </body> 
 </html>
