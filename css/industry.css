@@ -611,7 +611,10 @@ a{color:#2980B9; text-decoration:none;}
     width: 90%; margin: 0 auto;
 	position: relative;
 	overflow: hidden;
-    height: 700px;
+    height: 800px;
+}
+.popeyes_CSSgal {
+    height: 760px;
 }
 .video_title1 {
     width: 500px; padding: 50px 0; margin: 0 auto 40px;
