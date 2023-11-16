@@ -900,7 +900,7 @@ html, body {font-family: "GmarketSansMedium", sans-serif;}*/
 }
 
 .F_I_content {max-width: 1500px;}
-.F_I_content h3, p {text-align: left;}
+.F_I_content h3 {text-align: left;}
 .F_I_content th {height: 40px;}
 .F_I_content td {
     border-top: solid 1px #e5e5e5;
