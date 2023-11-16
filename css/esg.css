@@ -914,4 +914,39 @@ html, body {font-family: "GmarketSansMedium", sans-serif;}*/
 
 .F_I_content a {text-indent: 2em;}
 /* E: 지배구조 */
+
+/* S: 회사정관 */
+.accordion-list li > .accordion-desc .txt {
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.accordion-list li > .accordion-desc .tit2 {
+    line-height: 1.5;
+    margin-top: 25px;
+}
+.accordion-list li > .accordion-desc .indent {
+    padding-left: 22px;
+}
+.policy02 .accordion-list .accordion-item .accordion-name2 {
+    position: relative; 
+    width: calc(100% - 50px); 
+    padding-left: 60px; 
+    font-size: 17px; 
+    font-weight: bold; 
+    line-height: 1;
+}
+.policy02 .accordion-list .accordion-item .accordion-name2 .icon {
+    display: inline-block; 
+    position: absolute; top: -4px; left: 0; 
+    font-size: 24px; 
+    color: #999; 
+    transition: all 0.3s;
+}
+.policy02 .accordion-list .accordion-item.active .accordion-name2 .icon {
+    color: #000;
+}
+
+.tab_menu ul .F_I_tab_list { width: 33.333333333%; }
+
+/* E: 회사정관 */
 /* S:지속가능경영>활동----------------------------------------------- */
