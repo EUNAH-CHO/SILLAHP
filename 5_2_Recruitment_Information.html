@@ -620,14 +620,25 @@
 		/*E:SelectBox dropdown*/	
         
         /* S:탭페이지 */
-        $('.tab-menu li a').on('click', function(){
-		   	var target = $(this).attr('data-rel');
-			$('.tab-menu li a').removeClass('active');
-		   	$(this).addClass('active');
-		   	$("#"+target).fadeIn('slow').siblings(".tab-box").hide();
-		   	return false;
+        $(document).ready(function() {
+    
+        //Default Action
+        $(".tab_content").hide(); //Hide all content
+        $(".tab_menu li:first").addClass("active").show(); //Activate first tab
+        $(".tab_content:first").show(); //Show first tab content
+        
+        //On Click Event
+        $(".tab_menu li").click(function() {
+            $(".tab_menu li").removeClass("active"); //Remove any "active" class
+            $(this).addClass("active"); //Add "active" class to selected tab
+            $(".tab_content").hide(); //Hide all tab content
+            var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+            $(activeTab).fadeIn(); //Fade in the active content
+            return false;
         });
-        /* E:탭페이지 */
+
+    });
+    /* E:탭페이지 */
 
 	</script>
   </body> 
