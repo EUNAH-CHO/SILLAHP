@@ -498,60 +498,28 @@
 
 
 /* S:탭페이지 */
-.tab-menu { margin-top:34px; }
-.tab-menu ul { 
-    margin:0; padding:0; 
-    list-style:none; 
-    display: -webkit-box; 
-    display: -webkit-flex; 
-    display: -ms-flexbox; 
-    display: flex; 
+.clearfix:before, .clearfix:after { 
+    content:" "; display:table; clear:both; height:0;
 }
-.tab-menu ul li { 
-    -ms-flex-preferred-size: 0; 
-    flex-basis: 0; 
-    -ms-flex-positive: 1; 
-    flex-grow: 1; 
-    max-width: 100%; 
-    text-align:center; 
-}
-.tab-menu ul li a { 
-    color: #2980B9; 
-    text-transform: uppercase; 
-    letter-spacing: 0.44px; 
-    display:inline-block; 
-    padding:5px 26px; 
-    display:block; 
-    text-decoration:none; 
-    transition:0.5s all; 
-    background: #fff; 
-    border: 2px solid #2980B9; 
-}
-#R_I_tabLink_01 { margin-left: 30%; }
-#R_I_tabLink_02 { margin-right: 30%; }
-.tab-menu ul li a:hover { 
-    background:#2980B9; 
-    color:#fff; 
-    text-decoration:none; 
-}
-.tab-menu ul li a.active { 
-    background:#2980B9; 
-    color:#fff; 
-    text-decoration:none; 
-}
-.tab-box { display:none; }
-.tab-box h3 { margin-top: 5%; color: #2980B9; text-align: center;}
+* html .clearfix {height:1%}
+.clearfix>li{float: left;}
 
-.tab-teaser { 
-    max-width:100%; 
-    width:100%; 
-    margin:0 auto; 
+ul, li{list-style:none;}
+a{color:#2980B9; text-decoration:none;}
+
+.tab_menu {max-width:1500px; margin:34px auto 0;}
+.tab_menu ul li{
+    width:50%; 
+    text-align:center; line-height: 50px; 
+    background:#fff; border:1px solid #2980B9; box-sizing:border-box;
+    transition:0.5s all; 
 }
-.tab-main-box { 
-    background:#fff; 
-    margin-top:-2px;  
-    margin-bottom:10%; 
-}
+
+.tab_menu ul li.active{background: #2980B9;}
+.tab_menu ul li.active a{color: #fff;}
+.tab_menu ul li {cursor:pointer;}
+/* E:탭페이지 */
+
 /* S:직원채용 탭페이지 */
 .M_P_h3Text { text-align: center; }
 .M_P_cont01Wrap {
