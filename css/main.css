@@ -140,21 +140,17 @@ body::-webkit-scrollbar-track {
  #scrollTopPc img {
    display: none;
  }
-
-@media screen and (min-width:1066px) {
-    #scrollTopMob {
-      position: fixed;
-      bottom: 30px; /* 브라우저 아래쪽 끝에서부터의 거리 */
-      right: 30px; /* 브라우저 오른쪽 끝에서부터의 거리 */
-      z-index: 99;
-      cursor: pointer;
-      /* background: #333; */
-      background: #4A9EED;
-      color: white;
-      padding: 10px;
-   }
-  /* PC TOP 버튼 */
-}
+ #scrollTopMob {
+    position: fixed;
+    bottom: 30px; /* 브라우저 아래쪽 끝에서부터의 거리 */
+    right: 30px; /* 브라우저 오른쪽 끝에서부터의 거리 */
+    z-index: 99;
+    cursor: pointer;
+    /* background: #333; */
+    background: #4A9EED;
+    color: white;
+    padding: 10px;
+ }
 
 
 
