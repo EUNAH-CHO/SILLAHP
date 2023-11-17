@@ -5,6 +5,7 @@
     @keyframes animate-plus { from {background-size: 180%; transition: .1s;} to {background-size: 150%; transition: .1s;} }
     /* footer */
     footer { padding: 4rem 4rem 15rem; }
+    .footer_logo, .footer_list {float:left;}
     .footer_list > .FooterArea { float:left; border-right:1px solid #555; }
         .footer_list > .FooterArea:nth-child(2),
         .footer_list > .FooterArea:nth-child(3) { height: 12vh; margin-top: 54px;}
@@ -15,7 +16,8 @@
     /* visual 애니메이션 */
     @keyframes animate-plus { from {background-size: 230%; transition: .1s;} to {background-size: 200%; transition: .1s;} }
     /* footer */
-    footer { padding: 4rem 4rem 25rem; }
+    footer { padding: 4rem 4rem 10rem; }
+    .footer_logo, .footer_list { width: 100%; overflow: hidden; }
     .footer_list {margin: 5% 0;}
         .footer_list > .FooterArea { float:left; border-right:1px solid #555; }
         .footer_list > .FooterArea:nth-child(2),
@@ -32,7 +34,8 @@
     /* visual 애니메이션 */
     @keyframes animate-plus { from {background-size: 730%; transition: .1s;} to {background-size: 600%; transition: .1s;} }
     /* footer */
-    footer { padding: 4rem 4rem 42rem; }
+    footer { padding: 4rem 4rem 15rem; }
+    .footer_logo, .footer_list { width: 100%; overflow: hidden; }
     .footer_list {margin: 10% auto;}
         .footer_list > .FooterArea { border-bottom:1px solid #555; }
         .footer_list > .FooterArea:nth-child(2),
@@ -218,43 +221,11 @@ footer {
     background-color: black;
     color: #eee;
 }
-.footer_logo, .footer_list {float:left;}
 .footer_list {margin-left: 3%;}
 .footer_list > .FooterArea { padding: 0 1rem; }
 .footer_list > .FooterArea:nth-child(1) p { font-size: 1.6rem; font-weight: 800; }
 .footer_list > .FooterArea:last-child {border:0;}
-/* footer {
-    font-size: 14px;
-}
-footer > div { float:left; }
-#footer {
-    padding: 4rem;
-    overflow: hidden;
-}
-.footer_logo { border:1px solid pink; float:left; height: 20vh; }
-.footer_list { max-width: 1300px; border:1px solid red; float:left; }
-.footer_list .FooterArea {border-right:1px solid #555; width: 30%; height: 20vh; }
-    .footer_list .FooterArea:last-child { 
-        width: 40%; border: 0;
-    }
-.FooterArea p, 
-    .FooterArea ul { margin: 0 15%; }
-    .FooterArea:nth-child(2) p {
-        font-weight: bold;
-        font-size: 25px;
-        padding-bottom: 10px;
-    }
-    .FooterArea:nth-child(3) ul {
-        padding-top:45px;
-    }
-    .FooterArea:last-child p {
-        padding-top: 45px;
-        margin: 0 8%;
-    }
-    .FooterArea:last-child span {
-        display: block;
-        padding-top: 15px;
-    } */
+
 
 /* S:select box */
 .dropdown {
