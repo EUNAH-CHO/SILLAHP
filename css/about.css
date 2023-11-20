@@ -1043,7 +1043,8 @@ iframe{ border:1px solid #0084F0; padding-bottom:4px; box-shadow: 2px 2px 6px #9
 .map_box01{
     text-align: center;
     display: inline-block;
-    float: left;
+    float: left;  
+    width: 70%;
   }
   .map_box01 input{
       border: none;
