@@ -106,10 +106,6 @@
     animation: 5s animate-minus forwards;
     overflow: hidden;
 }
-@keyframes animate-minus { 
-  from {background-size: 180%; transition: .1s;}
-  to {background-size: 150%; transition: .1s;}
-}
 #Company_A_visual h1 {
     width: 100%;
     text-align: center;
