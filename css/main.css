@@ -2,7 +2,10 @@
 /* 1200px ~ 100% width사이즈 */
 @media screen and (min-width: 1200px){
     /* visual 애니메이션 */
-    @keyframes animate-plus { from {background-size: 180%; transition: .1s;} to {background-size: 150%; transition: .1s;} }
+    @keyframes animate-plus { from {background-size: 180%; transition: .1s;} 
+                                to {background-size: 150%; transition: .1s;} }
+    @keyframes animate-minus { from {background-size: 180%; transition: .1s;}
+                                to {background-size: 150%; transition: .1s;} }
     /* footer */
     footer { padding: 4rem 4rem 15rem; }
     .footer_logo, .footer_list {float:left;}
@@ -15,7 +18,10 @@
 /* 768px ~ 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px){
     /* visual 애니메이션 */
-    @keyframes animate-plus { from {background-size: 230%; transition: .1s;} to {background-size: 200%; transition: .1s;} }
+    @keyframes animate-plus { from {background-size: 230%; transition: .1s;} 
+                                to {background-size: 200%; transition: .1s;} }
+    @keyframes animate-minus { from {background-size: 230%; transition: .1s;}
+                                to {background-size: 200%; transition: .1s;} }
     /* footer */
     footer { padding: 4rem 4rem 10rem; }
     .footer_logo, .footer_list { width: 100%; overflow: hidden; }
@@ -34,7 +40,10 @@
 /* 0 ~ 768px */
 @media screen and (max-width: 768px){
     /* visual 애니메이션 */
-    @keyframes animate-plus { from {background-size: 730%; transition: .1s;} to {background-size: 600%; transition: .1s;} }
+    @keyframes animate-plus { from {background-size: 730%; transition: .1s;} 
+                                to {background-size: 600%; transition: .1s;} }
+    @keyframes animate-minus { from {background-size: 730%; transition: .1s;}
+                                to {background-size: 600%; transition: .1s;} }
     /* footer */
     footer { padding: 4rem 4rem 15rem; }
     .footer_logo, .footer_list { width: 100%; overflow: hidden; }
