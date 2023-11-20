@@ -132,7 +132,8 @@
   .map_number { margin: 550px auto; }
   .map_address { width: 100%; }
     .map_address_img1 { margin: 20px 10px 5px 10px; }
-    .map_box01{ margin-top: 40px; }
+    .map_box01{ margin-top: 40px; }  
+    .map_box01 input{ font-size: 14px; }
   .map_traffic { width: 100%; }
     .map_subway, .map_bus { width: 90%; float: left; padding: 10px; }
     .map_traffic img { width: 40px; }
