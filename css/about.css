@@ -183,7 +183,7 @@ h2 {
 .C_A_second_content:hover { transform: scale(1.08);}
 .C_A_second_content > div {
   margin: 5%; padding-top: 12%;
-  height:30vh;
+  height:31vh;
   border-radius: 20px;
   /* background-color: #E6F0F0;      */
   background-color: #f1f1f1;       
