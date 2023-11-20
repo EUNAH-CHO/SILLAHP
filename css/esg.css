@@ -181,6 +181,7 @@
     width: 170px;
     height: 50px;
   }
+  .cd-popup-trigger img { margin: 20% 0 0 10%; }
   @media only screen and (min-width: 1170px) {
     .cd-popup-trigger {
       margin: 2.5em 2em;
@@ -231,6 +232,15 @@
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
   }
+  .cd-popup-container > img {width: 100%;}
+  .cd-popup-container .cd-popup01 {
+    position: absolute; 
+    transform: translate( -10%, -330% );
+    color: #e5e5e5;
+    font-size: 30px;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #e5e5e5;
+}
   .cd-popup-container .food_pop_text1 {
     padding: 3em 3em;
     color: #4A9EED;
@@ -355,7 +365,7 @@
             background-size: cover;
             background-position: center center; overflow: hidden;
     }
-    .msg_imgWrap img { margin: 20% 0 0 10%; }
+    /* .msg_imgWrap img { margin: 20% 0 0 10%; } */
 
     .msg_imgWrap img.msg_imgHover_after{ display:none; }
       .msg_imgWrap:hover img.msg_imgHover_before{ display:none; }
@@ -436,6 +446,7 @@
           text-transform: uppercase; 
       }
     /* E:지속가능경영>Overview style */
+
 
 
 
