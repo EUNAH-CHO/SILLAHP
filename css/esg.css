@@ -1,5 +1,37 @@
 /* 지속가능경영(ESG) style */
 
+@media screen and (min-width: 1101px) {
+    .txt_box {line-height: 26px; text-align: center;}
+    .txt_box p {line-height:26px;}
+    .txt_box p + p {margin-top:27px;}
+
+    .foundation {margin-top:-10px;}
+    .foundation > span {margin-top:86px; text-align:center; display:block;}
+    .foundation_content h3 {margin-top:170px; margin-bottom:31px;}
+    .foundation_content .assist {max-width:1103px; margin:0 auto; position:relative;}
+    .foundation_content .assist:after {border-top:1px dashed #dcdcdc; content:''; position:absolute; top:171px; right:-100%; left:-100%; z-index:-1; display:block;}
+    .foundation_content ul {margin-left:-169px;}
+    .foundation_content ul:after {clear:both; content:''; display:block;}
+    .foundation_content li {width:33.333%; padding-left:169px; box-sizing:border-box; float:left;}
+    .foundation_content li div {text-align:center; position:relative;}
+    .foundation_content li strong {margin-top:43px; font-size:18px; font-weight:400; position:relative; display:inline-block;}
+    .foundation_content li strong * {color:#0283b2; font-weight:400;}
+    .foundation_content li strong:before {width:255px; height:255px; margin-bottom:38px; background-color:#f6f6f6; border-radius:50%; content:''; display:inline-block;}
+    .foundation_content li strong:after {width:117px; height:97px; margin-left:-58px; background-image:url('../img/esg/icon_foundation.png'); content:''; position:absolute; top:86px; left:50%; display:inline-block;}
+    .foundation_content li p {color:#646464; line-height:50px;}
+
+    .foundation_content li:nth-child(1) strong:after {background-position:0 0;}
+    .foundation_content li:nth-child(2) strong:after {background-position:0 -107px;}
+    .foundation_content li:nth-child(3) strong:after {background-position:0 -214px;}
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+    #Ethical_M_visual {padding-top: 77px; padding-bottom: 114px;}
+    .E_A_first {margin-bottom: 94px; text-align: center; position: relative; z-index: 1;}
+}
+
+
 
 
 
