@@ -72,7 +72,7 @@
   .Management_cont2_img { height: 90vh; }
 
   /* 오시는길 */
-  .kakaoMap_wrap { margin: 0 auto 300px; }
+  .kakaoMap_wrap { margin: 0 auto 270px; }
   .map_cont { height: 150px; }
   .map_content, .map_content2 { height: 75vh; }
     .map_content2 { top: 2350px; }
