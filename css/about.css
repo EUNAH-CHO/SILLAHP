@@ -125,7 +125,7 @@
   /* 오시는길 */
   .kakaoMap_wrap { margin: 0 auto 200px; }
   .map_cont { height: 350px; }
-  .map_content, .map_content2 { height: 90vh; }
+  .map_content, .map_content2 { height: 95vh; }
     .map_content2 { top: 2450px; }
   .map_number { margin: 550px auto; }
   .map_address { width: 100%; }
