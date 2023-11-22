@@ -38,6 +38,9 @@
     .joint_ship_cont04 { height: 450px; margin-bottom: 50px; }
     .joint_ship_cont05 { height: 450px; }
     .line_H_mibile:nth-child(2) { line-height: 25px;}
+
+    /* 유통사업 */
+    .RBFishery_contL_p2 { font-size: 12px; }
 }
 
 
