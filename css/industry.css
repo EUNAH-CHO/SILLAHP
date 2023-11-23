@@ -1,0 +1,1252 @@
+/* 사업분야 style */
+/*---------------------------- 미디어 쿼리 ----------------------------*/
+/* 1200px ~ 100% width사이즈 */
+@media screen and (min-width: 1200px){
+    /* 원양어업 */
+    .marine_visualBACK { height: 500px; background: url('../img/industry/ocean/visual_img.png') no-repeat; }
+    .marine_cont1 { padding: 60px; }
+    .Marine h4 { width: 40%; }
+    .ship_cont { height: 400px; margin-bottom: 50px; }
+    .ship_content { width: 50%; float: left; }
+
+    /* 합작어업 */
+    .Joint_visualBACK { height: 500px; background: url('../img/industry/joint/visual_img.png') no-repeat; }
+
+    /* 수산물유통 */
+    .R_B_Fishery_cont_text, .R_B_food_cont_text { height: 400px; }
+    .R_B_Fishery_cont_L, .R_B_Fishery_cont_R, .R_B_Steel_cont_R, .R_B_Agriculture_cont_R { height: 390px; }
+    .R_B_Fishery_BOT01_back, .R_B_food_BOT01_back { height: 600px; }
+    .R_B_BOT02_content div {float:left;}
+    .BOT02_circle { width: 40%; }
+    .BOT02_circle div { margin: 100px auto 50px; }
+    .R_B_BOT02_arrow { margin-top: 180px; height: 100px; }
+    .CSSgal { height: 800px; }
+    .slide_text01 { font-size: 50px; top: 250px; }
+    .slide_text02 { top: 255px; }
+    .swiper-slide p { font-size: 18px; width: 260px; margin: 50px auto 0; }
+    .swiper-button-prev { margin-left: 570px; padding-top: 50px; }
+    .swiper-button-next { margin-right: 570px; padding-top: 50px; }
+    .swiper-pagination { padding-bottom: 70px; }
+    .video_title { width: 500px; padding: 50px 0; }
+    .slider video { width: 60%; height: auto; }
+    .CSSgal .prevNext a { opacity: 0.7; }
+
+    .productIMG01, .productIMG02 { width: 230px; padding: 170px 0; margin: 270px auto 0; }
+      .productIMG03 { width: 270px; padding: 170px 0; margin: 270px auto 0; }
+      .productIMG04 { width: 180px; padding: 170px 0; margin: 270px auto 0; }
+      .productIMG05 { width: 380px; padding: 100px 0; margin: 320px auto 0; }
+      .productIMG06, .productIMG07, .productIMG08 { width: 500px; padding: 90px 0; margin: 320px auto 0; }
+      .productIMG09 { width: 390px; padding: 160px 0; margin: 270px auto 0; }
+      .productIMG10 { width: 365px; padding: 150px 0; margin: 270px auto 0; }
+      .productIMG11 { width: 375px; padding: 150px 0; margin: 270px auto 0; }
+      .productIMG12 { width: 345px; padding: 170px 0; margin: 270px auto 0; }
+
+    /* 철강유통 */
+
+    /* 농산물유통 */
+    .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01.png') no-repeat; }
+    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2 { padding: 200px 0; } 
+    .donghwafp06_video iframe { height: 645px; }
+
+    /* 신라다랑원 */
+}
+/* 768px ~ 1200px */
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    /* 원양어업 */
+    .marine_visualBACK { height: 500px; background: url('../img/industry/ocean/visual_img.png') no-repeat; }
+    .marine_cont1 { padding: 60px; }
+    .Marine h4 { width: 40%; }
+    .ship_cont { height: 400px; margin-bottom: 50px; }
+    .ship_content { width: 50%; float: left; }
+
+    /* 합작어업 */
+    .Joint_visualBACK { height: 500px; background: url('../img/industry/joint/visual_img.png') no-repeat; }
+
+    /* 수산물유통 */
+    .R_B_Fishery_cont_text, .R_B_food_cont_text { height: 400px; }
+    .R_B_Fishery_cont_L, .R_B_Fishery_cont_R, .R_B_Steel_cont_R, .R_B_Agriculture_cont_R { height: 390px; }
+    .R_B_Fishery_BOT01_back, .R_B_food_BOT01_back { height: 600px; }
+    .R_B_BOT02_content div {float:left;}
+    .BOT02_circle { width: 40%; }
+    .BOT02_circle div { margin: 100px auto 50px; }
+    .R_B_BOT02_arrow { margin-top: 180px; height: 100px; }
+    .CSSgal { height: 600px; }
+    .slide_text01 { font-size: 50px; top: 180px; }
+    .slide_text02 { top: 170px; }
+    .swiper-slide p { font-size: 18px; width: 260px; margin: 50px auto 40px; }
+    .swiper-button-prev { margin-left: 300px; padding-top: 50px; }
+    .swiper-button-next { margin-right: 300px; padding-top: 50px; }
+    .swiper-pagination { padding-bottom: 10px; }
+    .video_title { width: 500px; padding: 50px 0; }
+    .slider video { width: 60%; height: auto; }
+    .CSSgal .prevNext a { opacity: 0.7; }
+
+    .productIMG01, .productIMG02 { width: 150px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG03 { width: 160px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG04 { width: 110px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG05 { width: 380px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG06, .productIMG07, .productIMG08 { width: 400px; padding: 70px 0; margin: 220px auto 80px; }
+      .productIMG09 { width: 245px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG10 { width: 245px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG11 { width: 245px; padding: 100px 0; margin: 190px auto 0; }
+      .productIMG12 { width: 203px; padding: 100px 0; margin: 190px auto 0; }
+
+    /* 철강유통 */
+
+    /* 농산물유통 */
+    .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01.png') no-repeat; }    
+    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2 { padding: 200px 0; }
+    .donghwafp06_video iframe { height: 645px; }
+
+    /* 신라다랑원 */
+}
+/* 0 ~ 768px */
+@media screen and (max-width: 768px){
+    /* 원양어업 */
+    .marine_visualBACK { height: 300px; background: url('../img/industry/ocean/visual_img_mobile.png') no-repeat; }
+    .marine_cont1 { padding: 10px; }
+    .Marine h4 { width: 65%; font-size: 22px; }
+    .ship_cont { height: 900px; }
+    .ship_content { width: 100%; margin-bottom: 50px; }
+
+    /* 합작어업 */
+    .Joint_visualBACK { height: 300px; background: url('../img/industry/joint/visual_img_mobile.png') no-repeat; }
+    .joint_ship_cont04 { height: 450px; margin-bottom: 50px; }
+    .joint_ship_cont05 { height: 450px; }
+    .line_H_mibile:nth-child(2) { line-height: 25px;}
+
+    /* 수산물유통 */
+    .R_B_Fishery_cont_text { height: 540px; }
+        .R_B_food_cont_text { height: 400px }
+    .R_B_Fishery_cont_L, .R_B_Fishery_cont_R { height: 530px; }
+    .R_B_Fishery_BOT01_back { height: 700px; }
+        .R_B_food_BOT01_back { height: 550px; }
+    .h3_22_mobile { font-size: 22px; }
+    .RBFishery_contL_p2 { font-size: 12px; }
+    .R_B_BOT02_content { margin-bottom: 100px; }
+    .R_B_BOT02_arrow { opacity: 0; height: 30px; }    
+    .BOT02_circle { width: 80%; margin: 0 auto; padding-top: 40px; }
+    .BOT02_circle div { margin: 0px auto 20px; }
+    .CSSgal { height: 370px; }
+    .slide_text01 { font-size: 30px; top: 50px; }
+    .slide_text02 { top: 35px; }
+    .swiper-slide p { font-size: 10px; width: 100px; margin: 20px auto 40px; }
+    .swiper-button-prev { margin-left: 70px; padding-top: 20px; }
+    .swiper-button-next { margin-right: 70px; padding-top: 20px; }
+    .swiper-pagination { padding-bottom: 10px; }
+    .swiper-slide { width: 300; height: 500px; }
+    .video_title { width: 80%; padding: 30px 0; }
+    .slider video { width: 100%; height: auto; }
+    .CSSgal .prevNext a { opacity: 0; }
+
+    .productIMG01 { width: 100px; padding: 70px 0; margin: 80px auto 40px; }
+      .productIMG02 { width: 100px; padding: 80px 0; margin: 70px auto 30px; }
+      .productIMG03 { width: 100px; padding: 60px 0; margin: 90px auto 50px; }
+      .productIMG04 { width: 100px; padding: 95px 0; margin: 50px auto 0; }
+      .productIMG05 { width: 100px; padding: 28px 0; margin: 120px auto 84px; }
+      .productIMG06, .productIMG07, .productIMG08 { width: 100px; padding: 15px 0; margin: 140px auto 90px; }
+      .productIMG09, .productIMG10, .productIMG11 { width: 100px; padding: 40px 0; margin: 110px auto 70px; }
+      .productIMG12 { width: 100px; padding: 49px 0; margin: 100px auto 62px; }
+
+    /* 철강유통 */
+    .R_B_STEEL02_content, .R_B_STEEL03 { padding: 0 20px; }
+    .R_B_Steel_cont_R, .R_B_Agriculture_cont_R { height: 530px; }
+
+    /* 농산물유통 */
+    .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01_hover.png') no-repeat; }
+    .donghwafp02_L ul li, .donghwafp02_contWrap a { font-size: 10px; }
+    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2 { padding: 40px 0; }
+    .donghwafp06_video iframe { height: 120px; }
+
+    /* 신라다랑원 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:header */
+#Industry_visual {
+    width: 100%; 
+    padding: 6rem 0 3rem;
+    color: #fff;
+    background: url('../img/industry_visual.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    animation: 5s animate-plus forwards;
+    overflow: hidden;
+}
+#Industry_visual h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    padding-top: 6rem;
+    animation: 1s animate-up forwards;
+    opacity: 0;                                         
+}
+#Industry_visual p {
+    width: 100%; height: 80px; 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 300;
+    opacity: 0;
+        animation: 1s animate-up forwards;
+        animation-delay: .3s;
+}@keyframes animate-up { 
+    from {transform: translateY(50px);
+        opacity: 0;}
+        to {transform: translateY(0px);
+        opacity: 1;}
+}
+/* E:header */
+
+/* S:Industry_pages */
+#Industry_pages h2 {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2%;
+    color: #000;
+}
+/* S:section01 */
+.Industry_first {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto; 
+    text-align: center;
+}
+.borderArea {
+    width:1px;
+    height: 70px;
+    border-left: 1px solid #2980b9;
+    margin: 0 auto 2rem;
+}
+.Industry_first h3 { padding-bottom: 1rem; }
+.Industry_first_cont_wrap {
+    background-color: #F6F8F8;
+    width: 100%;
+    margin-top: 4rem;
+}
+.Industry_first_content {
+    width: 40%; 
+    margin: 0 auto;
+    text-align: left;
+    padding: 4rem 0 2rem;
+}
+.Industry_first_content span {
+    color: #2980B9;
+}
+/* E:section01 */
+
+
+
+
+
+
+
+
+
+
+
+/* S:사업분야>원양어업 style ----------------------------------------*/
+.marine_visualBACK {
+    background-size: cover;
+    background-position: center center;
+    
+    width: 100%;
+}
+
+
+
+/* S:참치선망선단 ----------------------------------------*/
+.marine_cont1 {
+    max-width: 1500px; margin: 0 auto;
+}
+.Marine h4 { 
+    border-bottom:3px solid #4A9EED;
+    text-align: left;
+    margin: 0 0 10px 0; padding: 15px 25px;
+}
+.marine_cont2 h5 {
+    margin-bottom: 30px;
+}
+.marine_cont1 p {
+    text-align: left; padding: 15px 25px;
+}
+.marine_cont1 p span {
+    color: #4A9EED;
+}
+.ship_cont {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.ship_cont_wrap {
+    max-width: 1200px; margin: 0 auto; overflow: hidden; 
+}
+
+/* S:선박사진 img hover */
+.ship_content .container {
+    position: relative;
+    width: 95%;
+    height: 400px;
+  }  
+  .ship_content .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+    border-radius: 50px;
+  }  
+  .ship_content .container:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 50px;
+  }  
+  .ship_cont_wrap .ship_content img {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    border-radius: 50px;
+  }  
+  .ship_cont_wrap .ship_content:nth-child(2) img {  }
+  .ship_content .title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 140px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }  
+  .ship_content .container:hover .title {
+    opacity: 1;
+  }  
+  .ship_content .ship_detail {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 230px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0;
+    color: white;
+    transition: opacity .35s ease;
+  }  
+  .ship_content .container:hover .ship_detail {
+    opacity: 1;
+  }
+  .ship_detail span {
+    color: #7dffc9; 
+    font-weight: bold;
+    padding-right:  20px;
+  }
+  /* E:선박사진 img hover */
+  
+/* E:참치선망선단 ----------------------------------------*/
+
+
+/* S:참치연승선단 ----------------------------------------*/
+/* E:참치연승선단 ----------------------------------------*/
+/* E:사업분야>원양어업 style ----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:사업분야>합작어업 style ----------------------------------------*/
+.Joint_visualBACK {
+    background-size: cover;
+    background-position: center center;
+    
+    width: 100%;
+}
+/* E:사업분야>합작어업 style ----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:사업분야>유통사업 style ----------------------------------------*/
+
+/* S:탭페이지 */
+.clearfix:before, .clearfix:after { 
+    content:" "; display:table; clear:both; height:0;
+}
+* html .clearfix {height:1%}
+.clearfix>li{float: left;}
+
+ul, li{list-style:none;}
+a{color:#2980B9; text-decoration:none;}
+
+.tab_menu {max-width:1500px; margin:34px auto 0;}
+.tab_menu ul .Retail_tab_list{
+    width:33.333333333%; 
+    text-align:center; 
+    background:#fff; border:1px solid #2980B9; box-sizing:border-box;
+    transition:0.5s all; 
+}
+.line_H_mibile { line-height: 50px; }
+.line_H_50 { line-height: 50px; }
+
+.tab_menu ul li.active{background: #2980B9;}
+.tab_menu ul li.active a{color: #fff;}
+.tab_menu ul li {cursor:pointer;}
+/* E:탭페이지 */
+
+/* S:수산유통 탭페이지 */
+.Fishery_text01 {
+        text-align: center;
+        /* font-family: Gowun Batang; */
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: 5%;
+    }
+    .Fishery_text01 span { color:#2980B9; }
+.Fishery_text02 {
+    text-align: center;
+}
+.Fishery_BlueOnTable01 {
+    /* border: 1px solid red; */
+    position: relative;
+}
+.R_B_Fishery_visualImg {
+    max-width: 1500px; height: 600px; margin: 0 auto;
+    background: url('../img/industry/Fishery_visualImg.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative; z-index: 1000;
+}
+.R_B_Fishery_cont_text {
+    max-width: 1000px; margin: 0 auto;
+    background-color: white;
+    border-top: 10px solid #4A9EED;
+    border-radius: 0 0 50px 50px;
+    position: relative; top: -200px; z-index: 1001;
+}
+    .R_B_Fishery_cont_L {
+        width: 70%; 
+        float:left;
+        padding: 45px 50px;
+        }
+        .R_B_Fishery_cont_L h3 {
+            text-align: left;
+            padding-bottom: 10px;
+            display: inline-block;
+            border-bottom: 3px solid #4A9EED;
+        }
+        .RBFishery_contL_p1 { 
+            font-size: 20px;
+            font-weight: bold;
+            padding: 12px 0 0 0;
+        }
+    .R_B_Fishery_cont_R {
+        width: 30%;
+        float:left;
+        background: url('../img/industry/FisheryImg01.png') no-repeat;
+            background-size: cover;
+            background-position: center center;
+    }
+    .R_B_Fishery_BOT01_back {
+        width: 100%;
+        background-color: #F7F7F7;
+        position: absolute; top: 300px; z-index: 1;
+    }
+.Fishery_BlueOnTable02 {
+    max-width: 1200px; margin: 0 auto; clear: both;
+    }
+    .Fishery_BlueOnTable02 h3 {    
+        text-align: left;
+        display: inline-block;
+        border-bottom: 3px solid #2980B9;
+        padding: 0 50px 10px 0;
+    } 
+    .Fishery_text05 {
+        text-align: left;
+        font-size: 1rem;
+        color: #222;
+        padding: 10px 0;
+    }
+    .R_B_BOT02_content {
+        max-width: 1500px;
+        overflow: hidden;
+        margin-top: 70px;
+    }
+    .BOT02_circle {
+        aspect-ratio: 1/1;
+        background-color: #EEEEEE;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .R_B_BOT02_arrow {
+        width: 20%; 
+        background: url('../img/industry/industry_arrow.png') no-repeat;
+            background-size: cover;
+            background-position: center center;
+    }
+    .BOT02_circle div {
+        width: 50px; aspect-ratio: 1/1; 
+        background-color: #4A9EED;
+        border-radius: 50%;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        float: none;
+        color: white;
+    }
+    .BOT02_circle p {
+        color: #1A1A1A;
+        /* font-family: Gowun Batang; */
+        font-size: 30px;
+        font-weight: 700;
+    }
+.Fishery_BlueOnTable03 h3,
+.Fishery_BlueOnTable04 h3,
+.Fishery_BlueOnTable05 h3,
+.donghwafp02 h3,
+.donghwafp03 h3,
+.donghwafp04 h3,
+.donghwafp05 h3 {
+    width: 250px; margin: 5% auto 20px; padding-bottom: 10px;
+    border-bottom: 3px solid #4A9EED;
+    text-align: center;    
+}
+.Fishery_text06 {
+    text-align: center;
+}
+.R_B_BOT03_content {
+    max-width: 1200px; margin: 0 auto;
+    overflow: hidden;
+    }
+    .R_B_BOT03_brand {
+        float:left; width: 33.33333%;
+        padding: 5px;
+    }
+    .BOT03_brandWrap {
+        border:1px solid #D9D9D9;
+        background-color: #F7F7F7;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .R_B_BOT03_content h4 {
+        color: #000;
+        /* font-family: Gowun Batang; */
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .BOT03_brand_text01 {
+        padding: 20px 0;
+        border-bottom: 1px solid #A6A6A6;
+    }
+    .brandWrap01 .BOT03_brandImg {
+        padding: 75px 0; 
+        width: 175px; margin: 50px auto 30px;
+        background: url('../img/industry/brandImg01.png') no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+        .brandWrap02 .BOT03_brandImg {
+            padding: 75px 0; 
+            width: 150px; margin: 50px auto 30px;
+            background: url('../img/industry/brandImg02.png') no-repeat;
+                background-size: cover;
+                background-position: center center;
+        }
+        .brandWrap03 .BOT03_brandImg {
+            padding: 75px 0; 
+            width: 260px; margin: 50px auto 30px;
+            background: url('../img/industry/brandImg03.png') no-repeat;
+                background-size: cover;
+                background-position: center center;
+        }
+    .BOT03_brandCont {
+        background-color: #4A9EED;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        padding: 5px 0;
+    }
+    .brandWrap01 .BOT03_brandCont,
+    .brandWrap03 .BOT03_brandCont {
+        padding: 17px 0;
+    }
+.R_B_BOT04_content {
+    background-color: #F7F7F7; 
+    padding: 50px 0;
+    overflow: hidden;
+    }
+    .BOT04_tell_wrap { max-width: 1000px; margin: 0 auto;}
+    .BOT04_tell {
+        width: 33.3333%; float:left;
+        background-color: #4A9EED;
+        padding: 10px 20px;
+        color: white; text-align: center;
+    }
+
+
+/* S:원형div 슬라이드js */ 
+.swiper {
+    width: 100%;
+    /* background-color: #F7F7F7; */
+    overflow: hidden;  
+
+    background: url('../img/industry/circleSlide_back.png') no-repeat;
+                background-size: cover;
+                background-position: center center;
+  }  
+  .swiper-wrapper > div {
+    justify-content:center;
+    align-items:center;
+    font-size:7rem;
+    color:gray;
+
+    aspect-ratio: 1/1; 
+    margin: 0 0;
+    border-radius: 500px;
+  }  
+  .swiper-wrapper > .slide-1 { background-color:#fff; }
+  .swiper-wrapper > .slide-2 { background-color:#fdf7da; }
+  .swiper-wrapper > .slide-3 { background-color:#fff; }
+  .swiper-wrapper > .slide-4 { background-color:#fdf7da; }
+  .swiper-wrapper > .slide-5 { background-color:#fff; }
+  .swiper-wrapper > .slide-6 { background-color:#fdf7da; }
+  .swiper-wrapper > .slide-7 { background-color:#fff; }
+  .swiper-wrapper > .slide-8 { background-color:#fdf7da; }
+  .swiper-wrapper > .slide-9 { background-color:#fff; }
+  .swiper-wrapper > .slide-10 { background-color:#fdf7da; }
+  .swiper-wrapper > .slide-11 { background-color:#fff; }
+  .swiper-wrapper > .slide-12 { background-color:#fdf7da; }
+
+  .slide_text01 {
+        color: #010101;
+        text-align: center;
+        font-weight: 700;
+        position: relative; z-index: 5000;
+  }
+  .slide_text01 span {
+    color: #4A9EED;
+  }
+  .slide_text02 {
+    text-align: center;
+    position: relative; z-index: 5000;
+  }
+  .slide_text03 {
+    text-align: center;
+    padding: 40px 0 130px;
+    background-color: #F7F7F7;
+    margin-bottom: -1rem;
+  }
+
+
+
+
+
+
+
+
+
+  .productIMG01 { background: url('../img/industry/product01.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG02 { background: url('../img/industry/product02.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG03 { background: url('../img/industry/product03.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG04 { background: url('../img/industry/product04.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG05 { background: url('../img/industry/product05.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG06 { background: url('../img/industry/eel06.PNG') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG07 { background: url('../img/industry/eel07.PNG') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG08 { background: url('../img/industry/eel08.PNG') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG09 { background: url('../img/industry/product09.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG10 { background: url('../img/industry/product10.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG11 { background: url('../img/industry/product11.png') no-repeat; background-size: cover; background-position: center center; }
+  .productIMG12 { background: url('../img/industry/product12.png') no-repeat; background-size: cover; background-position: center center; }
+
+  .swiper-slide p {
+    color: #fff;
+    text-align: center;
+    /* font-family: Gowun Batang; */
+    font-weight: 400;
+
+    background: #4A9EED;
+    border-radius: 5px; padding: 3px;
+  }
+  /* E:원형div 슬라이드js */
+  
+
+/* S:비디오 슬라이드 */
+.Fishery_BlueOnTable06 {
+    overflow: hidden;
+    background:#22265f;
+    padding: 100px 0 50px;
+}
+
+.CSSgal {
+    width: 90%; margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.popeyes_CSSgal {
+    height: 760px;
+}
+.video_title { margin: 0 auto 40px; }
+.video_title1 { background: url('../img/industry/video_title1.png') no-repeat; background-size: cover; background-position: center center; }
+.video_title2 { background: url('../img/industry/video_title2.png') no-repeat; background-size: cover; background-position: center center; }
+.video_title3 { background: url('../img/industry/video_title3.png') no-repeat; background-size: cover; background-position: center center; }
+.video_title4 { background: url('../img/industry/video_title4.png') no-repeat; background-size: cover; background-position: center center; }
+/* SLIDER */
+
+.CSSgal .slider {
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	transition: 0.8s;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+	background: none 50% no-repeat;
+	background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	height: 0;
+}
+
+.CSSgal .prevNext > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+	position: absolute;
+	width:       60px;
+	height:      60px;
+	line-height: 60px; /* If you want to place numbers */
+	text-align: center;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+}
+.CSSgal .prevNext a:hover {
+	opacity: 1;
+}
+.CSSgal .prevNext a+a {
+	left: auto;
+	right: 0;
+}
+.prevN_arrowLeft {
+    background: url('../img/button/arrow_left.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.prevN_arrowRight {
+    background: url('../img/button/arrow_right.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+.CSSgal .bullets > a {
+	display: inline-block;
+	width:       30px;
+	height:      30px;
+	line-height: 30px;
+    font-size: 13px;
+	text-decoration: none;
+	text-align: center;
+    background: #4A9EED;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+}
+.CSSgal .bullets > a+a {
+	background: rgba(255, 255, 255, 1); /* Dim all but first */
+    color: #4A9EED;
+}
+.CSSgal .bullets > a:hover {
+	background: white !important;
+    color: #4A9EED;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >s:target ~ .bullets >* {      
+    background: rgba(255, 255, 255, 1);
+    color:#4A9EED;
+}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background: #4A9EED; color: white;}
+#s2:target ~ .bullets >*:nth-child(2) {background: #4A9EED; color: white;}
+#s3:target ~ .bullets >*:nth-child(3) {background: #4A9EED; color: white;}
+#s4:target ~ .bullets >*:nth-child(4) {background: #4A9EED; color: white;}
+
+#s1:target ~ .bullets >*:nth-child(1):hover {color:#4A9EED;}
+#s2:target ~ .bullets >*:nth-child(2):hover {color:#4A9EED;} 
+#s3:target ~ .bullets >*:nth-child(3):hover {color:#4A9EED;}
+#s4:target ~ .bullets >*:nth-child(4):hover {color:#4A9EED;}
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+
+
+
+.CSSgal{
+	color: #fff;	
+	text-align: center;
+}
+.CSSgal a {
+	border-radius: 50%;
+	margin: 0 3px;
+	color: #fff;
+	text-decoration: none;
+}
+/* E:비디오 슬라이드 */
+
+/* E:수산유통 탭페이지 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:철강 탭페이지 ----------------------------------------------------------------------*/
+.R_B_Steel_visualImg {
+    max-width: 1500px; height: 600px; margin: 0 auto;
+    background: url('../img/industry/steel_visualImg.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative; z-index: 1000;
+}
+.R_B_Steel_cont_R {
+    width: 30%;
+    float:left;
+    background: url('../img/industry/SteelImg01.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.R_B_STEEL02_content {
+    max-width: 1500px; margin: 120px auto;
+}
+.R_B_STEEL02_content > div {
+    max-width: 1000px; margin: 70px auto;
+    /* border-bottom: 1px solid #666; */
+    margin-bottom: 20px; 
+}
+.R_B_STEEL02_content h4 {
+    width: 100%;
+    border-bottom: 1px solid #4A9EED;
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: 400;
+}
+.R_B_STEEL02_content table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height : 200px
+}
+.R_B_STEEL02_content th {
+    background-color: #4A9EED;
+    color: white;
+}
+.R_B_STEEL02_content td {
+    border-top: solid 1px #e5e5e5;
+}
+
+.R_B_STEEL03 {
+    padding-top: 50px;
+}
+.R_B_STEEL03 h3 {
+    width: 250px; margin: 5% auto 20px; padding-bottom: 10px;
+    border-bottom: 3px solid #4A9EED;
+    text-align: center;
+}
+.R_B_STEEL03_content {
+    margin: 50px auto;
+    overflow: hidden;
+}
+.R_B_STEEL03_content {
+    max-width: 1500px; 
+    margin: 70px auto;
+}
+.R_B_STEEL03_img_wrap > div {
+    float: left;
+	width: 25%;
+    padding: 150px 0;
+}
+.R_B_STEEL03_content h4 {
+    width: 70%;
+    border-bottom: 1px solid #4A9EED;
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: 400;
+}
+
+.steel01_img {
+    width: 45%;
+    padding: 200px 0;
+    background: url('../img/industry/Steel01.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.steel02_img {
+    width: 45%;
+    padding: 200px 0;
+    background: url('../img/industry/Steel02.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.steel03_img {
+    width: 45%;
+    padding: 200px 0;
+    background: url('../img/industry/Steel03.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.steel04_img {
+    width: 45%;
+    padding: 200px 0;
+    background: url('../img/industry/Steel04.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.steel05_img {
+    width: 45%;
+    padding: 200px 0;
+    background: url('../img/industry/Steel05.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.steel06_img {
+    width: 45%;
+    padding: 200px 0;
+    background: url('../img/industry/Steel06.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+/* E:철강 탭페이지 */
+
+
+/* S:농산물유통 탭페이지 */
+.donghwafp01 {
+    /* border: 1px solid red; */
+    position: relative; margin-bottom: -100px;
+}
+.R_B_Agriculture_visualImg {
+    max-width: 1500px; height: 600px; margin: 0 auto;
+    background: url('../img/industry/agriculture_visualImg.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative; z-index: 1000;
+}
+.R_B_Agriculture_cont_R {
+    width: 30%; 
+    float:left;
+        background-size: cover;
+        background-position: center center;
+}
+.donghwafp02 {
+    max-width: 1500px; margin: 0 auto;
+    border-bottom: 2px solid #DBDBDB;
+    padding-bottom: 50px; 
+}
+.donghwafp02_cont {
+    max-width: 1200px; margin: 3% auto 0; 
+    overflow: hidden;
+    }
+    .donghwafp02_L {
+        float:left; width: 50%;
+        }
+        .donghwafp02_L h4 {
+            padding: 0 0 15px 20px;
+            border-bottom: 2px solid #4A9EED;
+            font-weight: 400;
+        }
+        .donghwafp02_L ul { margin: 25px 0 0 20px; }
+        .donghwafp02_L ul li { margin: 20px 0; }
+    .donghwafp02_R {
+        float:left; width: 50%; padding: 195px 0;
+        background: url('../img/industry/agriculture02.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+.donghwafp03_cont {
+    max-width: 1000px; margin: 0 auto;
+    overflow: hidden;
+    }
+    .donghwafp03_sns {
+        width: 50%; float:left;
+    }
+    .donghwafp03_sns a:hover { border-bottom: 2px solid #4A9EED; }
+    .donghwafp02_contWrap {
+        background: #E6F0F0;
+        margin: 10px;
+        padding: 22px 20px 20px;
+        border-radius: 50px 0px;
+        color: #4A9EED;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .donghwafp02_contWrap img { margin: 0 20px 0 30px; }
+
+.donghwafp04_cont1 {
+    width: 100%; margin: 30px 0;
+    background: url('../img/industry/agriculture03.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.donghwafp04_cont2 {
+    width: 100%;
+    background: url('../img/industry/agriculture04.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.donghwafp06_cont_wrap { 
+    max-width: 60%; 
+    margin: 0 auto;
+}
+.donghwafp06_video iframe { width: 100%; }
+/* E:농산물유통 탭페이지 */
+
+
+/* E:사업분야>유통사업 style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:사업분야>외식사업 style ----------------------------------------*/
+.tab_menu ul .Food_tab_list{
+    width:50%; 
+    text-align:center; line-height: 50px; 
+    background:#fff; border:1px solid #2980B9; box-sizing:border-box;
+    transition:0.5s all; 
+}
+.Food_darangwon_visualImg {
+    max-width: 1500px; height: 600px; margin: 0 auto;
+    background: url('../img/industry/food/darangwon_visual.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative; z-index: 1000;
+}
+.Food_darangwon_cont_R {
+    width: 30%; height: 390px;
+    float:left;
+    background: url('../img/industry/food/darangwon_cont_RIMG.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.text_left { text-align: left; }
+
+.R_B_food_cont_text {
+    max-width: 1000px; margin: 0 auto;
+    background-color: white;
+    border-top: 10px solid #4A9EED;
+    border-radius: 0 0 50px 50px;
+    position: relative; top: -200px; z-index: 1001;
+}
+.R_B_food_BOT01_back {
+    width: 100%;
+    background-color: #F7F7F7;
+    position: absolute; top: 300px; z-index: 1;
+}
+
+.darangwon02_R {
+    float:left; width: 50%; padding: 195px 0;
+    background: url('../img/industry/food/darangwon_detailInfo.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.darangwon04_cont1 {
+    width: 100%; margin: 30px 0;
+    background: url('../img/industry/food/darangwon_photo01.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.darangwon04_cont2 {
+    width: 100%; 
+    background: url('../img/industry/food/darangwon_photo02.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+.kakaoMap_wrap {
+    max-width: 1500px; margin: 0 auto 100px; overflow: hidden;
+}
+#map_wrap { 
+    width: 100%; float:left; 
+    padding: 20px;
+}
+.kakaomap {
+    box-shadow: 0px 0px 20px #b1b1b1;
+    border-radius: 50px;
+}
+.map_cont {
+    width: 100%;
+    height: 150px;
+    border-top: 5px solid #0084F0;
+}
+.map3_subway {
+    width: 15%; float:left; margin: 40px 35px 0 35%;
+    background-color: #F7F7F7;
+    box-shadow: 0px 0px 20px #b1b1b1;
+    border-radius: 25px; 
+    font-size: 20px; font-weight: bold;
+}
+.map3_subway img {
+    float:left; width: 40px; 
+    padding: 11px 0; 
+    margin: 0 20px 0 50px;
+}
+.map3_subway p {margin-top: 1rem; float: left; }
+.subway_text { float: left; line-height: 60px; margin-top: 40px; }
+.darangwon03_sns { width: 50%; margin: 0 auto; }
+
+
+/* S: 파파이스 */
+.Food_popeyes_visualImg {
+    max-width: 1500px; height: 600px; margin: 0 auto;
+    background: url('../img/industry/food/popeyes.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    position: relative; z-index: 1000;
+}
+.Food_popeyes_cont_R {
+    width: 30%; height: 390px;
+    float:left; 
+    background: url('../img/industry/food/popeyes_cont_img.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.popeyes02_R {
+    float:left; width: 50%; padding: 195px 0;
+    background: url('../img/industry/food/popeyes_detail.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.popeyes04_cont1 {
+    width: 100%; padding: 200px 0; margin: 30px 0;
+    background: url('../img/industry/food/popeyes_photo01.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+.popeyes04_cont2 {
+    width: 100%; padding: 200px 0;
+    background: url('../img/industry/food/popeyes_photo02.png') no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+/* E: 파파이스 */
+/* E:사업분야>외식사업 style ----------------------------------------*/
