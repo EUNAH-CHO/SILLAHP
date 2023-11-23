@@ -13,6 +13,9 @@
     .Joint_visualBACK { height: 500px; background: url('../img/industry/joint/visual_img.png') no-repeat; }
 
     /* 유통사업 */
+    .R_B_Fishery_cont_text { height: 400px; }
+    .R_B_Fishery_cont_L { height: 390px; }
+    .R_B_Fishery_cont_R { height: 390px; }
     .R_B_BOT02_content div {float:left;}
     .BOT02_circle { width: 40%; }
     .R_B_BOT02_arrow { margin-top: 180px; }
@@ -30,6 +33,9 @@
     .Joint_visualBACK { height: 500px; background: url('../img/industry/joint/visual_img.png') no-repeat; }
 
     /* 유통사업 */
+    .R_B_Fishery_cont_text { height: 400px; }
+    .R_B_Fishery_cont_L { height: 390px; }
+    .R_B_Fishery_cont_R { height: 390px; }
     .R_B_BOT02_content div {float:left;}
     .BOT02_circle { width: 40%; }
     .R_B_BOT02_arrow { margin-top: 180px; }
@@ -50,6 +56,10 @@
     .line_H_mibile:nth-child(2) { line-height: 25px;}
 
     /* 유통사업 */
+    .R_B_Fishery_cont_text { height: 470px; }
+    .R_B_Fishery_cont_L { height: 460px; }
+    .R_B_Fishery_cont_R { height: 460px; }
+    .h3_22_mobile { font-size: 22px; }
     .RBFishery_contL_p2 { font-size: 12px; }
     .R_B_BOT02_arrow { opacity: 0; }    
     .BOT02_circle { width: 80%; margin: 0 auto; }
@@ -366,14 +376,14 @@ a{color:#2980B9; text-decoration:none;}
     position: relative; z-index: 1000;
 }
 .R_B_Fishery_cont_text {
-    max-width: 1000px; height: 400px; margin: 0 auto;
+    max-width: 1000px; margin: 0 auto;
     background-color: white;
     border-top: 10px solid #4A9EED;
     border-radius: 0 0 50px 50px;
     position: relative; top: -200px; z-index: 1001;
 }
     .R_B_Fishery_cont_L {
-        width: 70%; height: 390px;
+        width: 70%; 
         float:left;
         padding: 45px 50px;
         }
@@ -389,7 +399,7 @@ a{color:#2980B9; text-decoration:none;}
             padding: 12px 0 0 0;
         }
     .R_B_Fishery_cont_R {
-        width: 30%; height: 390px;
+        width: 30%;
         float:left;
         background: url('../img/industry/FisheryImg01.png') no-repeat;
             background-size: cover;
