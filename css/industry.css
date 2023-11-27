@@ -1249,7 +1249,7 @@ a{color:#2980B9; text-decoration:none;}
     border-top: 5px solid #0084F0;
 }
 .map3_subway {
-    width: 15%; float:left; margin: 40px 35px 0 35%;
+    float:left; 
     background-color: #F7F7F7;
     box-shadow: 0px 0px 20px #b1b1b1;
     border-radius: 25px; 
@@ -1258,7 +1258,6 @@ a{color:#2980B9; text-decoration:none;}
 .map3_subway img {
     float:left; width: 40px; 
     padding: 11px 0; 
-    margin: 0 20px 0 50px;
 }
 .map3_subway p {margin-top: 1rem; float: left; }
 .subway_text { float: left; line-height: 60px; margin-top: 40px; }
