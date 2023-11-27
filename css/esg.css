@@ -437,7 +437,7 @@
             background-size: cover;
             background-position: center center; overflow: hidden;
     }
-    .msg_imgWrap img { margin: 20% 0 0 10%; }
+/*     .msg_imgWrap img { margin: 20% 0 0 10%; } */
 
     .msg_imgWrap img.msg_imgHover_after{ display:none; }
       .msg_imgWrap:hover img.msg_imgHover_before{ display:none; }
