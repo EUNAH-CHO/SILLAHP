@@ -45,7 +45,7 @@
 
     /* 농산물유통 */
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01.png') no-repeat; }
-    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2 { padding: 200px 0; } 
+    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 200px 0; } 
     .donghwafp06_video iframe { height: 645px; }
 
     /* 신라다랑원 */
@@ -104,7 +104,7 @@
 
     /* 농산물유통 */
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01.png') no-repeat; }    
-    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2 { padding: 200px 0; }
+    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 200px 0; }
     .donghwafp06_video iframe { height: 645px; }
 
     /* 신라다랑원 */   
@@ -192,7 +192,7 @@
     /* 농산물유통 */
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01_hover.png') no-repeat; }
     .donghwafp02_L ul li, .donghwafp02_contWrap a { font-size: 10px; }
-    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2 { padding: 40px 0; }
+    .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 40px 0; }
     .donghwafp06_video iframe { height: 120px; }
 
     /* 신라다랑원 */
@@ -1279,13 +1279,13 @@ a{color:#2980B9; text-decoration:none;}
     background-position: center center;
 }
 .popeyes04_cont1 {
-    width: 100%; padding: 200px 0; margin: 30px 0;
+    width: 100%; margin: 30px 0;
     background: url('../img/industry/food/popeyes_photo01.png') no-repeat;
         background-size: cover;
         background-position: center center;
 }
 .popeyes04_cont2 {
-    width: 100%; padding: 200px 0;
+    width: 100%;
     background: url('../img/industry/food/popeyes_photo02.png') no-repeat;
         background-size: cover;
         background-position: center center;
