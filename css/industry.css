@@ -59,6 +59,8 @@
     /* 파파이스 */
     .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img.png') no-repeat; }
     .popeyes02_R { background: url('../img/industry/food/popeyes_detail.png') no-repeat; }
+    .popeyes_CSSgal { height: 760px; }
+    .popeyes_youtube_video { padding: 0 208px; }
 }
 /* 768px ~ 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px){
@@ -119,6 +121,8 @@
     /* 파파이스 */
     .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img.png') no-repeat; }
     .popeyes02_R { background: url('../img/industry/food/popeyes_detail.png') no-repeat; }
+    .popeyes_CSSgal { height: 760px; }
+    .popeyes_youtube_video { padding: 0 208px; }
 }
 /* 768px ~ 970px */
 @media screen and (min-width: 768px) and (max-width: 970px){
@@ -208,6 +212,8 @@
     /* 파파이스 */
     .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img_mobile.png') no-repeat; }
     .popeyes02_R { background: url('../img/industry/food/popeyes_detail_mobile.png') no-repeat; }
+    .popeyes_CSSgal { height: 200px; }
+    .popeyes_youtube_video { padding: 0 30px; }
 }
 
 
