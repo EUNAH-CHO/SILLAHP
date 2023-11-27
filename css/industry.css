@@ -616,8 +616,8 @@ a{color:#2980B9; text-decoration:none;}
 .donghwafp03 h3,
 .donghwafp04 h3,
 .donghwafp05 h3 {
-    width: 250px; margin: 5% auto 20px; padding-bottom: 10px; 
-    border: 3px solid #4A9EED;
+    max-width: 250px; margin: 5% auto 20px; padding-bottom: 10px; 
+    border-bottom: 3px solid #4A9EED;
     text-align: center;    
 }
 .Fishery_text06 {
@@ -1082,8 +1082,7 @@ a{color:#2980B9; text-decoration:none;}
 
 /* S:농산물유통 탭페이지 */
 .donghwafp01 {
-    /* border: 1px solid red; */
-    position: relative; margin-bottom: -100px;
+    position: relative; margin-bottom: -100px; overflow: hidden;
 }
 .R_B_Agriculture_visualImg {
     max-width: 1500px; height: 600px; margin: 0 auto;
