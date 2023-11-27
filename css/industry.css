@@ -199,7 +199,7 @@
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01_hover.png') no-repeat; }
     .donghwafp02_L ul li, .donghwafp02_contWrap a { font-size: 10px; }
     .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 40px 0; }
-    .donghwafp06_video iframe { height: 120px; }
+    .donghwafp06_video iframe { height: 208px; }
     .donghwafp02_R { background: url('../img/industry/agriculture02_mobile.png') no-repeat; }
 
     /* 신라다랑원 */
@@ -212,8 +212,7 @@
     /* 파파이스 */
     .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img_mobile.png') no-repeat; }
     .popeyes02_R { background: url('../img/industry/food/popeyes_detail_mobile.png') no-repeat; }
-    .popeyes_CSSgal { height: 200px; }
-    .popeyes_youtube_video { padding: 0 30px; }
+    .popeyes_CSSgal { height: 260px; }
 }
 
 
