@@ -43,10 +43,11 @@
 
     /* 철강유통 */
 
-    /* 농산물유통 */
+    /* 농산물유통 - 동화청과 */
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01.png') no-repeat; }
     .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 200px 0; } 
     .donghwafp06_video iframe { height: 645px; }
+    .donghwafp02_R { background: url('../img/industry/agriculture02.png') no-repeat; }
 
     /* 신라다랑원 */
     .Food_darangwon_visualImg { background: url('../img/industry/food/darangwon_visual.png') no-repeat; }
@@ -102,10 +103,11 @@
 
     /* 철강유통 */
 
-    /* 농산물유통 */
+    /* 농산물유통 - 동화청과 */
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01.png') no-repeat; }    
     .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 200px 0; }
     .donghwafp06_video iframe { height: 645px; }
+    .donghwafp02_R { background: url('../img/industry/agriculture02.png') no-repeat; }
 
     /* 신라다랑원 */   
     .Food_darangwon_visualImg { background: url('../img/industry/food/darangwon_visual.png') no-repeat; } 
@@ -189,11 +191,12 @@
     .R_B_STEEL02_content, .R_B_STEEL03 { padding: 0 20px; }
     .R_B_Steel_cont_R, .R_B_Agriculture_cont_R { height: 530px; }
 
-    /* 농산물유통 */
+    /* 농산물유통 - 동화청과 */
     .R_B_Agriculture_cont_R { background: url('../img/industry/agriculture01_hover.png') no-repeat; }
     .donghwafp02_L ul li, .donghwafp02_contWrap a { font-size: 10px; }
     .donghwafp04_cont1, .donghwafp04_cont2, .darangwon04_cont1, .darangwon04_cont2, .popeyes04_cont1, .popeyes04_cont2 { padding: 40px 0; }
     .donghwafp06_video iframe { height: 120px; }
+    .donghwafp02_R { background: url('../img/industry/agriculture02_mobile.png') no-repeat; }
 
     /* 신라다랑원 */
     .Food_darangwon_visualImg { background: url('../img/industry/food/darangwon_visual_mobile.png') no-repeat; }
@@ -1111,7 +1114,6 @@ a{color:#2980B9; text-decoration:none;}
         .donghwafp02_L ul li { margin: 20px 0; }
     .donghwafp02_R {
         float:left; width: 50%; padding: 195px 0;
-        background: url('../img/industry/agriculture02.png') no-repeat;
         background-size: cover;
         background-position: center center;
     }
