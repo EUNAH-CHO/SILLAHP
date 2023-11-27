@@ -54,6 +54,10 @@
     .darangwon02_R { background: url('../img/industry/food/darangwon_detailInfo.png') no-repeat; }
     .map3_subway { width: 15%; margin: 40px 35px 0 35%; }
     .map3_subway img { margin: 0 20px 0 50px; }
+
+    /* 파파이스 */
+    .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img.png') no-repeat; }
+    .popeyes02_R { background: url('../img/industry/food/popeyes_detail.png') no-repeat; }
 }
 /* 768px ~ 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px){
@@ -109,6 +113,10 @@
     .darangwon02_R { background: url('../img/industry/food/darangwon_detailInfo.png') no-repeat; }
     .map3_subway { width: 15%; margin: 40px 35px 0 35%; }
     .map3_subway img { margin: 0 20px 0 50px; }
+
+    /* 파파이스 */
+    .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img.png') no-repeat; }
+    .popeyes02_R { background: url('../img/industry/food/popeyes_detail.png') no-repeat; }
 }
 /* 768px ~ 970px */
 @media screen and (min-width: 768px) and (max-width: 970px){
@@ -193,6 +201,10 @@
     .darangwon02_R { background: url('../img/industry/food/darangwon_detail_info_mobile.png') no-repeat; }
     .map3_subway { width: 40%; margin: 40px 25px 0 10%; }
     .map3_subway img { margin: 0 5px 0 22px; }
+
+    /* 파파이스 */
+    .Food_popeyes_cont_R { background: url('../img/industry/food/popeyes_cont_img_mobile.png') no-repeat; }
+    .popeyes02_R { background: url('../img/industry/food/popeyes_detail_mobile.png') no-repeat; }
 }
 
 
@@ -1258,13 +1270,11 @@ a{color:#2980B9; text-decoration:none;}
 .Food_popeyes_cont_R {
     width: 30%; height: 390px;
     float:left; 
-    background: url('../img/industry/food/popeyes_cont_img.png') no-repeat;
         background-size: cover;
         background-position: center center;
 }
 .popeyes02_R {
     float:left; width: 50%; padding: 195px 0;
-    background: url('../img/industry/food/popeyes_detail.png') no-repeat;
     background-size: cover;
     background-position: center center;
 }
