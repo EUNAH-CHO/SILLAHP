@@ -277,7 +277,7 @@ a{color:#2980B9; text-decoration:none;}
 /* E:재무정보 */
 
 /* S: 전자공고 서브페이지 */
-.container {margin: 40px auto;}
+#site-body .container {margin: 40px auto;}
 .table-body td:first-child {padding: 30px 60px;}
 .table-body ul > li {padding: 10px 0 5px 20px;}
 .table-body p {margin: 30px auto;}
