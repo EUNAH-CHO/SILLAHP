@@ -1,0 +1,398 @@
+<!-- 투자정보 > 전자공고 서브 페이지 -->
+<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+    <meta charset="euc-kr">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+    <title>전자공고</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+	<link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+	<link href="css/freelancer.min.css" rel="stylesheet">
+	<link href="css/investment.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet"> 
+
+</head>
+
+<body id="page-top" OnLoad="na_preload_img(false, 'img/button/about_view more_c.jpg', 'img/button/공지%20바로가기_on.PNG', 'img/button/공지 바로가기_on.PNG', 'img/button/홍보%20더%20보기.PNG', 'img/button/홍보 더 보기.PNG');">
+
+    <!------------------------------------------------------------메뉴------------------------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+                <!-- 로고 -->
+                <div class="silla_logo"></div>
+            </a>
+    
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto" id="nsr">
+                    <li class="nav-item">
+                        <a id="mainm1" class="nav-link js-scroll-trigger" href="1_1_Company_Overview.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">회사소개</span></font>
+                        </a>
+    
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="1_1_Company_Overview.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">회사개요</span></font>
+                                </a>
+                                <font face="돋움"><span class="nav-item" style="font-size:11pt;"></span></font>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="1_2_History.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">회사연혁</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="1_3_Management.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">경영이념</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="1_4_Map.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">오시는길</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="1_5_Family.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">Family</span>
+                                    </font>
+                                </a>
+                                <font face="돋움"><span class="nav-item" style="font-size:11pt;"></span></font>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a id="mainm2" class="nav-link js-scroll-trigger" href="2_1_Overview.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">지속가능경영</span></font>
+                        </a>
+    
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="2_1_Overview.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">Overview</span>
+                                    </font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="2_2_Ethical_Management.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">윤리경영</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="2_3_Governance.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">지배구조</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="2_4_Social_Contribution.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">사회공헌</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="2_5_Activity.html">
+                                    <font style="font-weight: 500"><span class="nav-item" style="font-size:11pt;">활동</span>
+                                    </font>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a id="mainm3" class="nav-link js-scroll-trigger" href="3_1_Marine_Fishery.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">사업분야</span></font>
+                        </a>
+    
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="3_1_Marine_Fishery.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">원양어업</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="3_2_Joint_Fishery.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">합작어업</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="3_3_Retail_Business.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">유통사업</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="3_4_Food_Beverage.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">외식사업</span></font>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a id="mainm4" class="nav-link js-scroll-trigger" href="4_1_Financial_Information.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">투자정보</span></font>
+                        </a>
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="4_1_Financial_Information.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">재무정보</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="4_2_Electronic_Announcement.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">전자공고</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="4_3_Disclosure.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">공시정보</span></font>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a id="mainm5" class="nav-link js-scroll-trigger" href="5_1_Personnel System.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">채용정보</span></font>
+                        </a>
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="5_1_Personnel_System.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">인사제도</span></font>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="subm">
+                                <a class="nav-link js-scroll-trigger" href="5_2_Recruitment_Information.html">
+                                    <font style="font-weight: 500"><span class="nav-item"
+                                            style="font-size:11pt;">채용안내</span></font>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <div class="nav_language">
+                        <a class="nav-link js-scroll-trigger" href="#">
+                            <span class="nav-item" style="font-size:10pt;">
+                                <u>KO</u>
+                            </span>
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#">
+                            <span class="nav-item" style="font-size:10pt;">
+                                <u>EN</u>
+                            </span>
+                        </a>
+                    </div>                    
+    
+                </ul>
+                <!-- <ul>
+                    <li class="nav-item language">
+                        <a id="mainm5" class="nav-link js-scroll-trigger" href="5_1_Personnel System.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">KO</span></font>
+                        </a>
+                        <a id="mainm5" class="nav-link js-scroll-trigger" href="5_1_Personnel System.html">
+                            <font style="font-weight: 500"><span class="nav-item" style="font-size:13pt;">EN</span></font>
+                        </a>
+                    </li>
+                </ul> -->
+                
+                
+            </div>
+        </div>
+    </nav>
+
+	<header>
+		<div id="Investment_visual">
+			<h1>투자정보</h1>
+			<p class="header_subText"></p>
+			<div class="bottom-scroll-down"></div>
+		</div>
+	</header>
+
+	<div id="site-body" class="sub" role="main" tabindex="-1">    
+
+        <div class="container">
+            <div class="list-group">
+                <table class="table">
+                    <thead class="hide-m">
+                        <tr>
+                            <th style="width: 20%;">No.7</th>
+                            <th style="width: 40%;">제 45기 결산공고</th>
+                            <th style="width: 20%;">2012 / 03 / 20</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" height="800px">
+                                <div style="display: flex;">
+                                <img style="width: 50%;" src="img/investment/file/제45기 결산공고(재무상태표).png">
+                            </div>
+                            </td>                    
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right; width: 90%;"><img src="img/download_065B89.png" style="width: 40px;"></td>
+                            <td style="text-align: left; width: 10%;">
+                                    <a target="_blank" href="common/file/제45기 결산공고(재무상태표).pdf">제45기 결산공고(재무상태표).pdf</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="button">
+                    <a class="pack_btn" href="4_2_Electronic_Announcement.html">
+                        LIST
+                    </a>
+                </div>    
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 모바일 TOP 버튼 HTML -->
+    <div onclick="topFunctionMob()" id="scrollTopMob" class="hidden-lg">
+        TOP
+    </div>
+
+
+
+	<!-- footer -->
+	<footer>
+
+		<div id="footer">
+			<div class="FooterArea footer_logo">
+				<img src="img/로고.PNG" width="227" height="45" border="0" alt="logo">
+			</div>
+			<div class="footer_list">
+				<div class="FooterArea">
+					<p>CONTACT US</p>
+					<ul>
+						<li>승선: sillabusan@psia.co.kr</li>
+						<li>철강: ssb@sla.co.kr</li>
+						<li>주식: yong1301@sla.co.kr</li>
+						<li>인사: recruit@sla.co.kr</li>
+					</ul>
+				</div>		
+				<div class="FooterArea">
+					<ul>
+						<li><a href="1_4_Map.html">찾아오시는 길</a></li>
+						<li><a href="1_5_Family.html">FAMILY SITE</a></li>
+					</ul>
+				</div>	
+				<div class="FooterArea">
+					<p>(우)05203 서울특별시 강동구 고덕비즈밸리로 6길 30 (고덕동)<br>
+						대표전화: +82) 02-3434-9900<br>
+						Mail: compliance@sla.co.kr<br>
+						
+						<span>Ⓒ SILLA ALL RIGHT RESERVED.</span>
+					</p>
+				</div>
+			</div>			
+		</div>
+
+
+        
+		<!-- S: select box -->
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+				Family Site
+				<span class="caret"></span>
+			</button>
+
+			<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+				<li><a href="http://sillaholdings.com/">신라홀딩스</a></li>
+				<li><a href="https://www.sillafoundation.com/">신라문화장학재단</a></li>
+				<li><a href="http://www.sillasg.co.kr/">신라SG</a></li>
+				<li><a href="http://www.sillaeng.co.kr/ko/index.html">신라ENGINEERING</a></li>
+				<li><a href="https://www.cosmoseafoods.com/">COSMO</a></li>
+				<li><a href="https://www.visionhillscc.co.kr/">비전힐스</a></li>
+			</ul>
+		</div>
+		<!-- E: select box -->
+
+        <ul class="footer_security">
+            <li><a href="6_1_policy.html">개인정보처리방침</a></li>
+            <li><a href="6_2_email_policy.html">이메일 무단 수집금지</a></li>
+        </ul>
+
+	</footer>
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="js/creative.min.js"></script>
+<script src="js/page_navigation.js"></script>
+
+
+	<script language="JavaScript">
+		/*S:SelectBox dropdown	*/
+		$('.dropdown-menu').on( 'click', 'a', function() {
+			var text = $(this).html();
+			var htmlText = text + ' <span class="caret"></span>';
+			$(this).closest('.dropdown').find('.dropdown-toggle').html(htmlText);
+		});
+		/*E:SelectBox dropdown*/		
+	</script>
+  </body> 
+</html>
