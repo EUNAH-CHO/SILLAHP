@@ -488,6 +488,12 @@ h2 {
   background-size: cover;
   background-position: center center;
 }
+#H_Area .s2020{
+  background: url(../img/about/history/history07.jpg)0 0 no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 
 #H_Area .scrolling{
   float:right;
