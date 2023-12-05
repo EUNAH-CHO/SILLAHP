@@ -437,26 +437,26 @@ h2 {
 #H_Area section{
   width:100%;
   min-height:100%;
-  float:left;
   position:relative
 }
 
 #H_Area .sticky{
   height:100%;
-  width:50%;
-  float:left;
-  position:absolute;
+  width:50%; 
+  position:absolute; left: 0;
+  /* transition: all 1.5s linear; */
 
 }
 #H_Area .sticky.fixy{
   position:fixed; 
-  top:0;
+  top:150px;
   left:0;
+  /* transition: all 1.5s linear; */
 }
 
 #H_Area .sticky.bottom{
   position:absolute;
-  bottom:0;
+  /* bottom:0; */
 }
 #H_Area .s1960{
   background: url(../img/about/history/history01.jpg)0 0 no-repeat;
@@ -496,9 +496,10 @@ h2 {
 
 
 #H_Area .scrolling{
-  float:right;
-  width:50%;
-  padding:20px;
+  float: right;
+  width:50%; 
+  padding: 5rem 0 600px; margin: 0 0 0 52%;
+  /* border:1px solid red; */
 }
 #H_Area p{
   font-size:15pt;
@@ -552,13 +553,10 @@ h2 {
 }
 /* S:페이지 스크롤링 fixed */
 
-#H_footer {
-  position:relative; z-index: 9999;
-}
+
 
 
 /* E:회사소개>회사연혁 style */
-
 
 
 
