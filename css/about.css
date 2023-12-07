@@ -573,22 +573,22 @@ h2 {
   position: relative;
   background: #fff;
   text-align: center;
-  border:1px solid red;
 }
-.sticky-nav-tabs { height: 100vh; }
-#tab_s1 { height: 300vh; }
-#tab_s2 { height: 100vh; }
-#tab_s3 { height: 100vh; }
-#tab_s4 { height: 100vh; }
-#tab_s5 { height: 100vh; }
-#tab_s6 { height: 100vh; }
-#tab_s7 { height: 100vh; }
+.sticky-nav-tabs { height: 80vh; }
+#tab_s1 { }
+#tab_s2 { }
+#tab_s3 { }
+#tab_s4 { }
+#tab_s5 { }
+#tab_s6 { }
+#tab_s7 { }
 
 .sticky-nav-tabs h1, .spa-slide h1 {
   font-size: 2rem;
   margin: 0;
   letter-spacing: 1rem;
 }
+.spa-slide .left h1 { color: #2980B9; }
 
 
 
@@ -678,11 +678,12 @@ h2 {
 .H_contwrap .right>div{
 	    height: 100vh;
     background-size: cover;
-	background-position:50% 50%;
+	/* background-position:50% 50%; */
+  background-position: center center;
 	    background-attachment: fixed;
 }
 .H_contwrap .left>div{
-	height:100vh;
+	/* height:100vh; */
 	display:flex;
 	    flex-direction: column;
     justify-content: center;
@@ -691,8 +692,11 @@ h2 {
   text-align: left;
 	margin:0 auto;
 }
-.H_contwrap .left>div p {
-  padding: 1em 0 5rem 0;
+.H_contwrap .left>div h1 {
+  padding: 2em 0 1rem 0;
+}
+.H_contwrap .left>div {
+  padding: 4em 0 0 9em;
 }
 
 
@@ -704,13 +708,42 @@ h2 {
   .sticky-nav-tabs p { color: white; }
 .H_nav_h3 {font-size:60px;}
 .sticky-nav-tabs {
-background: url(../img/about/history/history01.jpg)0 0 no-repeat;
-background-size: cover;
-background-position: center center;
+  background: url(../img/about/history/1960s.png)0 0 no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .timeline h3 {
 color: #333;
 }
+
+
+.spa-slide .visual {
+  width: 80%; margin: 10em auto 5em;
+  height: 70vh;
+  background-size: cover;
+  background-position: center center;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.s1970_visual { background: url(../img/about/history/1960s.png)0 0 no-repeat; }
+
+.spa-slide .visual_content {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* #tab_s1 .left > div { padding-top: 5em; } */
+
+
 
 
 
