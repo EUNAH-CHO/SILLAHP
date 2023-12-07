@@ -586,7 +586,7 @@ h2 {
 .sticky-nav-tabs h1, .spa-slide h1 {
   font-size: 2rem;
   margin: 0;
-  letter-spacing: 1rem;
+  letter-spacing: .3rem;
 }
 .spa-slide .left h1 { color: #2980B9; }
 
@@ -676,7 +676,7 @@ h2 {
 }
 
 .H_contwrap .right>div{
-	    height: 100vh;
+	    height: 110vh;
     background-size: cover;
 	/* background-position:50% 50%; */
   background-position: center center;
@@ -693,7 +693,7 @@ h2 {
 	margin:0 auto;
 }
 .H_contwrap .left>div h1 {
-  padding: 2em 0 1rem 0;
+  padding: 1.5em 0 .5rem 0;
 }
 .H_contwrap .left>div {
   padding: 4em 0 0 9em;
@@ -728,7 +728,12 @@ color: #333;
   text-align: center;
   flex-direction: column;
 }
-.s1970_visual { background: url(../img/about/history/1960s.png)0 0 no-repeat; }
+.s1970_visual { background: url(../img/about/history/1970s.png)0 0 no-repeat; }
+.s1980_visual { background: url(../img/about/history/1980s.jpg)0 0 no-repeat; }
+.s1990_visual { background: url(../img/about/history/1990s.png)0 0 no-repeat; }
+.s2000_visual { background: url(../img/about/history/2000s.png)0 0 no-repeat; }
+.s2010_visual { background: url(../img/about/history/2010s.png)0 0 no-repeat; }
+.s2020_visual { background: url(../img/about/history/2020s.png)0 0 no-repeat; }
 
 .spa-slide .visual_content {
   color: #fff;
@@ -761,7 +766,6 @@ color: #333;
 
 
 /* E:회사소개>회사연혁 style */
-
 
 
 
