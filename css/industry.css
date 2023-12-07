@@ -4,6 +4,7 @@
 @media screen and (min-width: 1200px){
     /* 원양어업 */
     .marine_visualBACK { height: 500px; background: url('../img/industry/ocean/visual_img.png') no-repeat; }
+    .marine_visualBACK_eng { height: 500px; background: url('../img/industry/ocean/visual_img_eng.png') no-repeat; }
     .marine_cont1 { padding: 60px; }
     .Marine h4 { width: 40%; }
     .ship_cont { height: 400px; margin-bottom: 50px; }
@@ -11,6 +12,7 @@
 
     /* 합작어업 */
     .Joint_visualBACK { height: 500px; background: url('../img/industry/joint/visual_img.png') no-repeat; }
+    .Joint_visualBACK_eng { height: 500px; background: url('../img/industry/joint/visual_img_eng.png') no-repeat; }
 
     /* 수산물유통 */
     .R_B_Fishery_cont_text, .R_B_food_cont_text { height: 400px; }
