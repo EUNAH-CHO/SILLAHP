@@ -416,96 +416,6 @@ h2 {
 .H_h2_text { text-align: center; padding-bottom: 2rem; }
 
 
-/* S:페이지 스크롤링 fixed */
-.scrolling, .scrolling:after, .scrolling:before { 
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
-  box-sizing: border-box; 
-}
-#H_Area {
-  overflow: hidden;
-}
-#H_Area h1{
-  float:left;
-  width:100%;
-  text-align:center;
-  color:#fff;
-  font-size:4vw;
-  margin-top:20vh;
-}
-
-#H_Area section{
-  width:100%;
-  min-height:100%;
-  position:relative
-}
-
-#H_Area .sticky{
-  height:100%;
-  width:50%; 
-  position:absolute; left: 0;
-  /* transition: all 1.5s linear; */
-
-}
-#H_Area .sticky.fixy{
-  position:fixed; 
-  top:150px;
-  left:0;
-  /* transition: all 1.5s linear; */
-}
-
-#H_Area .sticky.bottom{
-  position:absolute;
-  /* bottom:0; */
-}
-#H_Area .s1960{
-  background: url(../img/about/history/history01.jpg)0 0 no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#H_Area .s1970{
-    background: url(../img/about/history/history02.jpg)0 0 no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-#H_Area .s1980{
-  background: url(../img/about/history/history03.jpg)0 0 no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#H_Area .s1990{
-  background: url(../img/about/history/history04.jpg)0 0 no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#H_Area .s2000{
-  background: url(../img/about/history/history05.jpg)0 0 no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#H_Area .s2010{
-  background: url(../img/about/history/history06.jpg)0 0 no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#H_Area .s2020{
-  background: url(../img/about/history/history07.jpg)0 0 no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-
-#H_Area .scrolling{
-  float: right;
-  width:50%; 
-  padding: 5rem 0 600px; margin: 0 0 0 52%;
-  /* border:1px solid red; */
-}
-#H_Area p{
-  font-size:15pt;
-}
-
-
 
 
 
@@ -745,25 +655,6 @@ color: #333;
   text-align: center;
   flex-direction: column;
 }
-
-/* #tab_s1 .left > div { padding-top: 5em; } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* E:회사소개>회사연혁 style */
 
