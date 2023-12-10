@@ -485,13 +485,6 @@ h2 {
   text-align: center;
 }
 .sticky-nav-tabs { height: 80vh; }
-#tab_s1 { }
-#tab_s2 { }
-#tab_s3 { }
-#tab_s4 { }
-#tab_s5 { }
-#tab_s6 { }
-#tab_s7 { }
 
 .sticky-nav-tabs h1, .spa-slide h1 {
   font-size: 2rem;
@@ -503,7 +496,6 @@ h2 {
 
 
 .sticky-nav-tabs-container {
-  border-top: 3px solid #2980B9; margin-top: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -516,7 +508,7 @@ h2 {
   width: 100%;
   height: 75px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fafafa;
+  background: #F7F7F7;
   z-index: 1;
   -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
@@ -673,6 +665,9 @@ color: #333;
 }
 
 /* E:회사소개>회사연혁 style */
+
+
+
 
 
 
