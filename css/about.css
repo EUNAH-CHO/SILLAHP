@@ -579,11 +579,11 @@ h2 {
 }
 
 .H_contwrap .right>div{
-	    height: 110vh;
-    background-size: cover;
-	/* background-position:50% 50%; */
-  background-position: center center;
-	    background-attachment: fixed;
+	height: 110vh;
+        background-size: cover;
+	background-position:50% 50%;
+  	background-position: center center;
+	background-attachment: fixed;
 }
 .H_contwrap .left>div{
 	/* height:100vh; */
@@ -638,7 +638,7 @@ color: #333;
 .s2010_visual { background: url(../img/about/history/2010s.png)0 0 no-repeat; }
 .s2020_visual { background: url(../img/about/history/2020s.png)0 0 no-repeat; }
 
-#s1960_img01 { background-image: url(../img/about/history/history01.png); }
+#s1960_img01 { background-image: url(../img/about/history/history01.png);  }
 #s1970_img01 { background-image: url(../img/about/history/history02.png); }
 #s1970_img02 { background-image: url(../img/about/history/history03.png); }
 #s1980_img01 { background-image: url(../img/about/history/history04.png); }
