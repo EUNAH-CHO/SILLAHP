@@ -32,7 +32,7 @@
     .main_banner { background: url('../img/main/main_banner_mobile.png') no-repeat; }
         .main_banner a { width: 160px; margin: 20px auto; }
     .thired_container { width: 100%; margin-bottom: 5%;}
-    .fourth { height: 115vh; }
+    .fourth { height: 130vh; }
     .fourth .content_Left { width: 100%; border-bottom: 1px solid rgb(240, 242, 247); text-align: center; padding: 10px 0 30px; }
         .fourth .content_Right { width: 90%; margin: 0 auto; text-align: center; padding: 20px 0 0; }
         .fourth .esg_subtext { font-size: 40px; }
