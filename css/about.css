@@ -1,0 +1,951 @@
+/* 회사소개 style */
+
+/* 1200px ~ 100% width사이즈 */
+@media screen and (min-width: 1200px){
+  /* 회사소개 */
+  .company_img { width: 45%; height: 80vh; float:left; }
+  .company_A_text { float:left; width: 55%; }
+    .company_A_text { height: 80vh; }
+    .C_A_text_subtitle1 { font-size: 38px; }
+    .C_A_text_subtitle2 { font-size: 30px; }
+  .C_A_second_cont_wrap { max-width: 1200px; }
+    .C_A_second_content { width: 25%; }
+ 
+  /* 회사연혁 */
+  .sticky-nav-tabs-container--top-first { top: 75px; } /* 년도 nav var 고정높이 */
+  .H_contwrap .left>div { padding: 4em 0 0 9em; }
+  .H_contwrap .left>div h1 { padding: 1.5em 0 .5rem 0; }
+  .spa-slide h1 { font-size: 2rem; letter-spacing: .3rem; }
+  .spa-slide .visual { width: 80%; margin: 10em auto 5em; }
+    .spa-slide .visual { height: 70vh; }
+    .H_nav_h3 { font-size: 70px; }
+  .H_contwrap .right>div{ height: 110vh; } /* img 높이 */
+  .H_contwrap .left, .H_contwrap .right{ width:50%; }
+
+  /* 경영이념 */
+  .Management_cont2_img { height: 90vh; }
+
+  /* 오시는길 */
+  .kakaoMap_wrap { margin: 0 auto 280px; }
+  .map_cont { height: 150px; }
+  .map_content, .map_content2 { height: 67vh; }
+    .map_content2 { top: 2350px; }
+  .map_number { margin: 400px auto; }
+  .map_address { width: 40%; float: left; }
+    .map_address_img1 { margin: 40px 10px 5px 100px; }
+    .map_box01{ margin-top: 60px; }
+  .map_traffic { width: 60%; float:left; }
+    .map_subway, .map_bus { width: 50%; float: left; }
+
+  /* 패밀리 사이트 */
+  .family_content { width: 1200px; }
+  .family_cont_wrap { width: 50%;  float:left; }
+
+    /* 개인정보처리방침 */
+  #container {padding-top: 77px; padding-bottom: 114px;}
+
+  .title_wrap {margin-bottom: 34px; text-align: center; position: relative; z-index: 1;}
+  .title_wrap strong {font-size: 40px; font-weight: 400;}
+  .title_wrap p {margin-top: 34px; font-size: 22px;}
+  .title_wrap p strong {margin-top: 15px; font-size: 36px; font-weight: 300; display: inline-block;}
+
+  .policy section {max-width: 1224px; margin: 0 auto; padding: 0 20px; box-sizing: border-box;}
+  .policy section * {font-size: 15px; line-height: 26px;}
+  .policy section dl {margin-top: 30px; border-top: 1px solid #666666; border-bottom: 1px solid #666666;}
+  .policy section dt, .policy section dd {padding-right: 30px; padding-left: 30px;}
+  .policy section dd {padding-bottom: 22px;}
+  .policy section dt {padding-top: 38px; padding-bottom: 16px; font-size: 18px; font-weight: 500;}
+}
+/* 768px ~ 1200px */
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  /* 회사소개 */
+  .company_img { width: 45%; height: 60vh; float:left; }
+  .company_A_text { float:left; width: 55%; }
+    .company_A_text { height: 60vh; }
+    .C_A_text_subtitle1 { font-size: 30px; }
+    .C_A_text_subtitle2 { font-size: 25px; }
+    .company_A_text_cont { font-size: 15px; }
+  .C_A_second_cont_wrap { max-width: 90%; }
+    .C_A_second_content { width: 25%; }
+    .C_A_second_content > div { padding: 0 5px; }
+    .C_A_second_content_text { font-size: 14px; }
+
+  /* 회사연혁 */
+  .sticky-nav-tabs-container--top-first { top: 75px; } /* 년도 nav var 고정높이 */
+  .H_contwrap .left>div { padding: 4em 0 0 9em; }
+  .H_contwrap .left>div h1 { padding: 1.5em 0 .5rem 0; }
+  .spa-slide h1 { font-size: 2rem; letter-spacing: .3rem; }
+  .spa-slide .visual { width: 80%; margin: 10em auto 5em; }
+    .spa-slide .visual { height: 70vh; }
+    .H_nav_h3 { font-size: 70px; }
+  .H_contwrap .right>div{ height: 110vh; } /* img 높이 */
+  .H_contwrap .left, .H_contwrap .right{ width:50%; }
+ 
+  /* 경영이념 */
+  .Management_cont2_img { height: 90vh; }
+
+  /* 오시는길 */
+  .kakaoMap_wrap { margin: 0 auto 270px; }
+  .map_cont { height: 150px; }
+  .map_content, .map_content2 { height: 75vh; }
+    .map_content2 { top: 2350px; }
+  .map_number { margin: 400px auto; }
+  .map_address { width: 40%; float: left; }
+    .map_address_img1 { margin: 40px 10px 5px 100px; }
+    .map_box01{ margin-top: 60px; }
+  .map_traffic { width: 60%; float:left; }
+    .map_subway, .map_bus { width: 50%; float: left; }
+
+  /* 패밀리 사이트 */
+  .family_content { width: 100%; }
+  .family_cont_wrap { width: 50%;  float:left; }
+
+  /* 개인정보처리방침 */
+  #container {padding-top:77px; padding-bottom:114px;}
+
+  .title_wrap {margin-bottom: 94px; text-align: center; position: relative; z-index: 1;}
+  .title_wrap strong {font-size: 45px; font-weight: 400;}
+  .title_wrap p {margin-top: 34px; font-size: 24px;}
+  .title_wrap p strong {margin-top: 15px; font-size: 300; display: inline-block;}
+
+  .policy section {max-width: 1224px; margin: 0 auto; padding: 0 20px; box-sizing: border-box;}
+  .policy section * {font-size: 15px; line-height: 26px;}
+  .policy section dl {margin-top: 30px; border-top: 1px solid #666666; border-bottom: 1px solid #666666;}
+  .policy section dt, .policy section dd {padding-right: 30px; padding-left: 30px;}
+  .policy section dd {padding-bottom: 22px;}
+  .policy section dt {padding-top: 38px; padding-bottom: 16px; font-size: 18px; font-weight: 500;}
+}
+/* 0 ~ 768px */
+@media screen and (max-width: 768px){
+  /* 회사소개 */
+  .company_img { width: 100%; height: 45vh; }
+  .company_A_text { width: 100%; }
+    .company_A_text { height: 45vh; }
+    .C_A_text_subtitle1 { font-size: 20px; }
+    .C_A_text_subtitle2 { font-size: 15px; }
+    .company_A_text_cont { font-size: 10px; }
+  .C_A_second_cont_wrap { max-width: 400px; }
+    .C_A_second_content { width: 50%; }
+    .C_A_second_content_text { font-size: 12px; }
+
+  /* 회사연혁 */
+  .sticky-nav-tabs-container--top-first { top: 96px; } /* 년도 nav var 고정높이 */
+  .H_contwrap .left>div { padding: 4em 0 0 .5em; }
+  .H_contwrap .left>div h1 { padding: .5em 0 0 0; }
+  .spa-slide h1 { font-size: 1rem; letter-spacing: .1rem; }
+  .spa-slide .visual { width: 100%; margin: 10em auto 0em; }
+    .spa-slide .visual { height: 40vh; }
+    .H_nav_h3 { font-size: 30px; width: 80%; }
+  .H_contwrap .right>div{ height: 100vh; } /* img 높이 */
+  /* .H_contwrap .left, .H_contwrap .right{ width:50%; } */
+ 
+  /* 경영이념 */
+  .Management_cont2_img { height: 50vh; }
+
+  /* 오시는길 */
+  .kakaoMap_wrap { margin: 0 auto 200px; }
+  .map_cont { height: 350px; }
+  .map_content, .map_content2 { height: 95vh; }
+    .map_content2 { top: 2450px; }
+  .map_number { margin: 550px auto; }
+  .map_address { width: 100%; }
+    .map_address_img1 { margin: 20px 10px 5px 10px; }
+    .map_box01{ margin-top: 40px; }
+  .map_traffic { width: 100%; }
+    .map_subway, .map_bus { width: 90%; float: left; padding: 10px; }
+
+  /* 패밀리 사이트 */
+  .family_content { width: 100%; }
+  .family_cont_wrap { width: 100%; }
+  .RBFishery_contL_p2 { font-size: 11px; }
+
+    /* 개인정보처리방침 */
+  #container {padding-top: 38px; padding-bottom: 57px;}
+
+  .title_wrap {margin-bottom: 38px; padding: 0 15px; text-align: center; position: relative; z-index: 1;}
+  .title_wrap strong {font-size: 27px; font-weight: 400;}
+  .title_wrap p {margin-top: 15px; font-size: 15px; line-height: 21px;}
+  .title_wrap p strong {margin-top: 15px; font-size: 19px; font-weight: 300; line-height: 1.3; display: inline-block;}
+
+  .content {padding: 0 15px;}
+  .policy section {box-sizing: border-box;}
+  .policy section * {font-size: 13px; line-height: 21px;}
+  .policy section dl {margin-top: 15px; border-top: 1px solid #666666; border-bottom: 1px solid #666666;}
+  .policy section dt, .policy section dd {padding-right: 15px; padding-left: 15px;}
+  .policy section dd {padding-bottom: 22px;}
+  .policy section dt {padding-top: 19px; padding-bottom: 16px; font-size: 16px; font-weight: 500;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:header */
+#Company_A_visual {
+    width: 100%; 
+    padding: 6rem 0 3rem;
+    color: #fff;
+    background: url('../img/about_visual.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    animation: 5s animate-minus forwards;
+    overflow: hidden;
+}
+#Company_A_visual h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 6rem;
+    animation: 1s animate-up forwards;
+    opacity: 0;
+}
+#Company_A_visual p {
+    width: 100%; height: 80px; 
+    text-align: center;
+    padding-top: 20px;
+    opacity: 0;
+        animation: 1s animate-up forwards;
+        animation-delay: .3s;
+}@keyframes animate-up { 
+    from {transform: translateY(50px);
+    opacity: 0;}
+    to {transform: translateY(0px);
+    opacity: 1;}
+}
+/* E:header */
+
+
+
+
+
+
+
+/* S:회사소개>회사개요 style */
+/* S:section01 */
+h2 {
+    padding-top: 5rem;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.C_A_first, .H_first { width: 100%; }
+.company_img {
+  border-top: 8px solid #0084F0;
+  background: url('../img/company_about.jpg') no-repeat;
+      background-size: cover;
+      background-position: center center;
+}
+.company_A_text {
+  padding: 7% 8%;
+  border-top: 8px solid #0084F0;
+  background: url('../img/about/C_A_right_back.PNG') no-repeat;
+        background-size: cover;
+        background-position: center center;
+  color: black;
+}
+.company_A_text p:nth-child(1) { font-weight: bold; }
+.company_A_text_title span {
+  display: block;
+  text-align: center;
+  margin: 5% 0 3%;
+  border-bottom: 1px solid black;
+}
+/* E:section01 */
+
+/* S:section02 */
+.C_A_second {
+    clear: both; 
+    overflow:hidden;
+    text-align: center;
+}
+.mar10 { margin-top: 5%;}
+.C_A_second_cont_wrap {
+    margin: 3% auto 7%;
+    overflow: hidden;
+}
+.C_A_second_content {
+    float:left;
+    transition: all 0.2s linear;
+}
+.C_A_second_content:hover { transform: scale(1.08);}
+.C_A_second_content > div {
+  margin: 5%; padding-top: 12%;
+  height:31vh;
+  border-radius: 20px;
+  /* background-color: #E6F0F0;      */
+  background-color: #f1f1f1;       
+}
+.C_A_second_content_title {
+  width: 50%; margin: 1rem auto;
+  border-bottom: 1px solid #2980B9;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+/* E:section02 */
+
+/* E:회사소개>회사개요 style */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+/* S:회사소개>패밀리 style */
+.Fishery_BlueOnTable01 {
+  /* border: 1px solid red; */
+  position: relative; overflow: hidden; 
+  }
+  .R_B_Fishery_visualImg {
+  max-width: 1500px; width: 100%; height: 600px; margin: 0 auto;
+  background: url('../img/esg/policy_visualBack.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  position: relative; z-index: 1000;
+  }
+  .R_B_Fishery_cont_text {
+  max-width: 1000px; height: 400px; margin: 0 auto 200px;
+  background-color: white;
+  border-top: 10px solid #4A9EED;
+  position: relative; top: 0; z-index: 1001;
+  }
+  .R_B_Fishery_cont_L {
+      width: 70%; height: 390px;
+      float:left;
+      padding: 45px 50px;
+      text-align: left;
+      }
+      .R_B_Fishery_cont_L h3 {
+          text-align: left;
+          padding-bottom: 10px;
+          display: inline-block;
+          border-bottom: 3px solid #4A9EED;
+      }
+      .RBFishery_contL_p1 { 
+          font-size: 20px;
+          font-weight: bold;
+          padding: 12px 0 0 0;
+      }
+      .R_B_esg_cont_R {
+        width: 30%; height: 390px;
+        float:left;
+        background: url('../img/esg/tuna_subVisualImg.jpg') no-repeat;
+            background-size: cover;
+            background-position: center center;
+      }
+  .R_B_Fishery_cont_R {
+      width: 30%; height: 390px;
+      float:left;
+      background: url('../img/esg/policy_visualImg.png') no-repeat;
+          background-size: cover;
+          background-position: center center;
+  }
+  .R_B_Fishery_BOT01_back {
+      width: 100%; height: 350px; 
+      background-color: #F7F7F7;
+      position: absolute; top: 150px; z-index: 1;
+  }
+
+
+.family_content {
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+.family_cont_wrap {
+  height: 450px; 
+  overflow: hidden;
+}
+.family_cont_detail {
+  width: 95%; height: 90%; margin: 20px auto; 
+  background: white; overflow: hidden;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px #b1b1b1;
+}
+.family_img01 {
+  width: 100%; height: 55%; border-bottom: 5px solid #0084F0;
+  background: url('../img/about/sillaholding.png') no-repeat; background-size: cover; background-position: center center;
+  }
+  .family_img02 {
+    width: 100%; height: 55%; border-bottom: 5px solid #0084F0;
+    background: url('../img/about/sillaJedan.PNG') no-repeat; background-size: cover; background-position: center center;
+  }
+  .family_img03 {
+    width: 100%; height: 55%; border-bottom: 5px solid #0084F0;
+    background: url('../img/about/sillaSG_family.png') no-repeat; background-size: cover; background-position: center center;
+  }
+  .family_img04 {
+    width: 100%; height: 55%; border-bottom: 5px solid #0084F0;
+    background: url('../img/about/engineering.jpg') no-repeat; background-size: cover; background-position: center center;
+  }
+  .family_img05 {
+    width: 100%; height: 55%; border-bottom: 5px solid #0084F0;
+    background: url('../img/about/cosmo.png') no-repeat; background-size: cover; background-position: center center;
+  }
+  .family_img06 {
+    width: 100%; height: 55%; border-bottom: 5px solid #0084F0;
+    background: url('../img/about/visionhills.jpg') no-repeat; background-size: cover; background-position: center center;
+  }
+.family_img:hover { animation: 1s animate-plus forwards; }
+@keyframes animate-plus { 
+  from {background-size: 100%;}
+  to {background-size: 110%;}
+}
+.family_text {
+  padding: 30px;
+}
+.family_text .page_link {
+  float: right;
+  color: #0084F0;
+  background-color: #f1f1f1;
+  padding: 1% 5%;
+  border-radius: 50px;
+}
+.family_text .page_link:hover {
+  background-color: #0084F0;
+  color: white;
+  transition: all .3s linear;
+}
+/* E:회사소개>패밀리 style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* S:회사소개>회사연혁 style */
+.History_h2 { margin-bottom: -1rem; }
+.H_h2_text { text-align: center; padding-bottom: 2rem; }
+
+
+
+
+
+
+
+
+#H_nav .spa-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 2em;
+  height: 75px;
+  z-index: 2;
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.spa-header--scrolled {
+  background: #fafafa;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.spa-header--move-up {
+  -webkit-transform: translateY(-75px);
+  transform: translateY(-75px);
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.spa-header__logo { color: #000; }
+
+.spa-header__link {
+  margin-left: 1em;
+  color: #000;
+}
+
+.sticky-nav-tabs, .spa-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  background: #fff;
+  text-align: center;
+}
+.sticky-nav-tabs { height: 80vh; }
+
+.spa-slide .left h1 { color: #2980B9; }
+
+
+
+.sticky-nav-tabs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #F7F7F7;
+  z-index: 1;
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.sticky-nav-tabs-container--top-first {
+  position: fixed;
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.sticky-nav-tabs-container--top-second {
+  position: fixed;
+  top: 0;
+}
+
+.sticky-nav-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+
+.sticky-nav-tab:hover {
+  color: white;
+  background: rgba(102, 177, 241, 0.8);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sticky-nav-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #66B1F1;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+
+
+
+
+/* 이미지 fixed 스크롤 */
+.H_contwrap{
+  width: 100%;
+  overflow: hidden;
+	display:flex;	
+}
+
+.H_contwrap .right>div{
+        background-size: cover;
+	background-position:50% 50%;
+  	background-position: center center;
+	background-attachment: fixed;
+}
+.H_contwrap .left>div{
+	/* height:100vh; */
+	display:flex;
+	    flex-direction: column;
+    justify-content: center;
+	width: 90%;
+	align-content:center;
+  text-align: left;
+	margin:0 auto;
+}
+
+
+
+
+
+.sticky-nav-tabs h3, .spa-slide h3 {
+  color: white;
+  letter-spacing: 0.3rem;
+  }
+  .sticky-nav-tabs p { color: white; }
+
+.sticky-nav-tabs {
+  background: url(../img/about/history/1960s.png)0 0 no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.timeline h3 {
+color: #333;
+}
+
+
+.spa-slide .visual {
+  background-size: cover;
+  background-position: center center;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.s1970_visual { background: url(../img/about/history/1970s.png)0 0 no-repeat; }
+.s1980_visual { background: url(../img/about/history/1980s.jpg)0 0 no-repeat; }
+.s1990_visual { background: url(../img/about/history/1990s.png)0 0 no-repeat; }
+.s2000_visual { background: url(../img/about/history/2000s.png)0 0 no-repeat; }
+.s2010_visual { background: url(../img/about/history/2010s.png)0 0 no-repeat; }
+.s2020_visual { background: url(../img/about/history/2020s.png)0 0 no-repeat; }
+
+#s1960_img01 { background-image: url(../img/about/history/history01.png);  }
+#s1970_img01 { background-image: url(../img/about/history/history02.png); }
+#s1970_img02 { background-image: url(../img/about/history/history03.png); }
+#s1980_img01 { background-image: url(../img/about/history/history04.png); }
+#s1980_img02 { background-image: url(../img/about/history/history05.png); }
+#s1980_img03 { background-image: url(../img/about/history/history06.png); }
+#s1990_img01 { background-image: url(../img/about/history/history07.png); }
+#s1990_img02 { background-image: url(../img/about/history/history08.png); }
+#s2000_img01 { background-image: url(../img/about/history/history09.png); }
+#s2000_img02 { background-image: url(../img/about/history/history10.png); }
+#s2010_img01 { background-image: url(../img/about/history/history11.png); }
+#s2010_img02 { background-image: url(../img/about/history/history12.png); }
+#s2020_img01 { background-image: url(../img/about/history/history13.png); }
+
+
+.spa-slide .visual_content {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* E:회사소개>회사연혁 style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:회사소개>경영이념 style */
+.M_P_first { text-align: center; }
+
+.M_P_content02 {
+  background: url('../img/about/M_P_backSILLA.png') no-repeat;
+        background-size: contain;
+        background-position: center center;
+}
+.M_P_cont02Wrap {
+  padding: 0 0 6%;
+  overflow: hidden;
+  max-width: 1000px; margin: 0 auto;
+}
+.M_P_cont02_area01 {
+  
+}
+.M_P_cont02_img, .M_P_cont02_text {
+  float:left; width: 50%;
+}
+.M_P_cont02_area02 {
+  clear:both;
+  padding-top: 6%; 
+}
+.M_P_cont02_p1 {
+  border-bottom: 3px solid rgba(41, 128, 185, 0.33);
+  color: rgba(41, 128, 185, 0.33);
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.M_P_cont02_text h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: -5px;
+}
+.M_P_cont02_p2 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 100;
+}
+.M_P_cont02_p3 {
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+.text_right { text-align: right; }
+.text_left { text-align: left; }
+
+
+
+.Management_cont2_img {
+  width: 100%; margin: 0 auto;
+    background: url('../img/about/M_P_content2_img.png') no-repeat;
+        background-size: contain;
+        background-position: center center;
+}
+
+
+/* E:회사소개>경영이념 style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:회사소개>오시는길 */
+.Map_pages h2 {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2%;
+}
+
+/* S: 지도 */
+.tabcontent{ display: none; }
+.tabcontent.active{ display: block; }
+.tab-button, .map-tab-content{ float: left;}
+.tab-button{ width: 20%; }
+.map-tab-content{ width: 100%; border-top:8px solid #0084F0; }
+iframe{ border:1px solid #0084F0; padding-bottom:4px; box-shadow: 2px 2px 6px #999; }
+/* E: 지도 */
+
+/* S:section01 */
+.Map_first {
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto;
+  text-align: center;
+}
+.Map_first h3 {
+  padding-bottom: 1rem;
+  color: #0084F0;
+}
+.Map_first_cont_wrap {
+  background-color: #F7F7F7;
+  width: 100%;
+  overflow: hidden; clear: both;
+}
+.Map_first_content {
+  float: left;
+  width: 33.333333%;
+  border-right: 1px solid #0084F0;
+  margin: 3rem 0 2rem;
+}
+.Map_first_content:last-child {border:0;}
+.Map_first_content p {
+  margin-top: 1rem;
+  height: 50px;
+}
+/* E:section01 */
+
+
+.Food_cont01_subway {
+  padding: 70px 0;
+  overflow: hidden;
+  }
+  .Food_cont01_subway h5 {
+    width: 200px; margin: 0 auto 2rem;
+    border-bottom: 1px solid #4A9EED;
+    padding-bottom: 10px;
+  }
+  .Food_cont01_subway h5 img {
+    margin-right: 10px;
+  }
+  .subway_station {
+    max-width: 450px; margin: 0 auto;
+    overflow: hidden;
+  }
+  .subway_station div {
+    width: 200px; 
+    padding: 20px 0; margin-right: 100px;
+    border-radius: 40px 0px;
+    background: #E6F0F0;
+    float: left;
+  }
+  .subway_station div img {margin-right: 10px;}
+  .subway_station p {
+    float: left;
+    line-height: 65px;
+  }
+
+
+.kakaoMap_wrap {
+    max-width: 1500px;
+    overflow: hidden;
+    position: relative; z-index: 1000;
+  }
+  #map_wrap { 
+      width: 100%; float:left; 
+      padding: 20px;
+      text-align: left;
+  }
+  .kakaomap {
+      box-shadow: 0px 0px 20px #b1b1b1;
+      border-radius: 50px;
+  }
+  #map, #map2 { border-radius: 50px; }
+  .map_cont {
+      width: 100%;
+      border-top: 5px solid #0084F0;
+      background-color: #fff;
+      border-radius: 0 0 50px 50px;
+  }
+  .map_address_imgWrap {
+    width: 30%; float: left;
+  }
+  .map_address_img1 {
+    width: 30px; 
+    padding: 11px 0; 
+    float: right;
+  }
+  .map_address_img2 {
+    /* width: 50px; */
+    width: 50px;
+    margin-left: 30px; 
+  }
+
+
+.map_box01{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 70%;
+  }
+  .map_box01 input{
+      width: 250px;
+      border: none; outline: none;
+      text-align: center; text-align: left;
+  }
+  .map_box01 button{
+      border:none;
+      width:80px;
+      vertical-align: bottom; 
+      background: rgba(255, 255, 255, 0.00);
+      margin-left: -50px;
+  }
+  .map_traffic {
+    padding-top: 35px;
+  }
+  .map_traffic img { width: 20%; float: left; }
+  .map_traffic p {
+    display: inline-block;
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+  }
+  .map_traffic span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+.map_content {
+  position: absolute; top: 1150px; z-index: 1;
+
+
+  background-color: #F7F7F7;
+  width: 100%;
+}
+.map_number {
+  max-width: 1000px;
+}
+.map_number img {
+  width: 100px;
+}
+.map_tell_num, .map_fax_num {
+  width: 50%; float: left;
+}
+.map_tell_num {
+  border-right: 1px solid #9A9A9A;
+}
+/* E:본사 */
+
+
+/* S:부산지사 */
+.map_content2 {
+  position: absolute; z-index: 1;
+
+  background-color: #F7F7F7;
+  width: 100%;
+}
+/* E:부산지사 */
+/* E:회사소개>오시는길 */
