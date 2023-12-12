@@ -21,6 +21,7 @@
     .H_nav_h3 { font-size: 70px; }
   .H_contwrap .right>div{ height: 110vh; } /* img 높이 */
   .H_contwrap .left, .H_contwrap .right{ width:50%; }
+  .H_contwrap .right>div{ background-attachment: fixed; }
 
   /* 경영이념 */
   .Management_cont2_img { height: 90vh; }
@@ -599,7 +600,6 @@ h2 {
         background-size: cover;
 	background-position:50% 50%;
   	background-position: center center;
-	background-attachment: fixed;
 }
 .H_contwrap .left>div{
 	/* height:100vh; */
