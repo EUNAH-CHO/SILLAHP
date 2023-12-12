@@ -93,6 +93,7 @@
   .spa-slide h1 { font-size: 2rem; letter-spacing: .3rem; }
   .spa-slide .visual { width: 80%; margin: 10em auto 5em; }
     .spa-slide .visual { height: 70vh; }
+    .H_nav_p { font-size: 25px; }
     .H_nav_h3 { font-size: 70px; }
   .H_contwrap .right>div{ height: 110vh; } /* img 높이 */
   .H_contwrap .left, .H_contwrap .right{ width:50%; }
