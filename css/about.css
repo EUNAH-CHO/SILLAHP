@@ -94,7 +94,7 @@
   .spa-slide .visual { width: 80%; margin: 10em auto 5em; }
     .spa-slide .visual { height: 70vh; }
     .H_nav_p { font-size: 25px; }
-    .H_nav_h3 { font-size: 70px; }
+    .H_nav_h3 { font-size: 140px; }
   .H_contwrap .right>div{ height: 110vh; } /* img 높이 */
   .H_contwrap .left, .H_contwrap .right{ width:50%; }
 
@@ -169,7 +169,7 @@
   .spa-slide h1 { font-size: 1rem; letter-spacing: .1rem; }
   .spa-slide .visual { width: 100%; margin: 10em auto 0em; }
     .spa-slide .visual { height: 40vh; }
-    .H_nav_h3 { font-size: 30px; width: 80%; }
+    .H_nav_h3 { font-size: 50px; width: 80%; }
   .H_contwrap .right>div{ height: 100vh; } /* img 높이 */
   /* .H_contwrap .left, .H_contwrap .right{ width:50%; } */
  
