@@ -648,19 +648,19 @@ color: #333;
 .s2010_visual { background: url(../img/about/history/2010s.png)0 0 no-repeat; }
 .s2020_visual { background: url(../img/about/history/2020s.png)0 0 no-repeat; }
 
-#s1960_img01 { background-image: url(../img/about/history/history01.png); display:inline-block; }
-#s1970_img01 { background-image: url(../img/about/history/history02.png); display:inline-block; }
-#s1970_img02 { background-image: url(../img/about/history/history03.png); display:inline-block; }
-#s1980_img01 { background-image: url(../img/about/history/history04.png); display:inline-block; }
-#s1980_img02 { background-image: url(../img/about/history/history05.png); display:inline-block; }
-#s1980_img03 { background-image: url(../img/about/history/history06.png); display:inline-block; }
-#s1990_img01 { background-image: url(../img/about/history/history07.png); display:inline-block; }
-#s1990_img02 { background-image: url(../img/about/history/history08.png); display:inline-block; }
-#s2000_img01 { background-image: url(../img/about/history/history09.png); display:inline-block; }
-#s2000_img02 { background-image: url(../img/about/history/history10.png); display:inline-block; }
-#s2010_img01 { background-image: url(../img/about/history/history11.png); display:inline-block; }
-#s2010_img02 { background-image: url(../img/about/history/history12.png); display:inline-block; }
-#s2020_img01 { background-image: url(../img/about/history/history13.png); display:inline-block; }
+#s1960_img01 { background-image: url(../img/about/history/history01.png); }
+#s1970_img01 { background-image: url(../img/about/history/history02.png); }
+#s1970_img02 { background-image: url(../img/about/history/history03.png); }
+#s1980_img01 { background-image: url(../img/about/history/history04.png); }
+#s1980_img02 { background-image: url(../img/about/history/history05.png); }
+#s1980_img03 { background-image: url(../img/about/history/history06.png); }
+#s1990_img01 { background-image: url(../img/about/history/history07.png); }
+#s1990_img02 { background-image: url(../img/about/history/history08.png); }
+#s2000_img01 { background-image: url(../img/about/history/history09.png); }
+#s2000_img02 { background-image: url(../img/about/history/history10.png); }
+#s2010_img01 { background-image: url(../img/about/history/history11.png); }
+#s2010_img02 { background-image: url(../img/about/history/history12.png); }
+#s2020_img01 { background-image: url(../img/about/history/history13.png); }
 
 
 .spa-slide .visual_content {
