@@ -361,7 +361,7 @@ a{color:#2980B9; text-decoration:none;}
 .fn_list td:first-child {text-align: left; padding-left: 10px;}
 .fn_list td {text-align: right; padding-right: 10px;}
 .fn_list tr.em.main > td:first-child {text-align: center;}
-.fn_list tr:first-child {background-color: #4A9EED; color: white;}
+.fn_list tr:first-child {background-color: #2980B9; color: white;}
 .fn_list tr:first-child > td {text-align: center; width: 25%;}
 .em {background: #EEEEEE;}
 
