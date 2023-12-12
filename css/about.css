@@ -146,6 +146,10 @@
   .policy section dd {padding-bottom: 22px;}
   .policy section dt {padding-top: 38px; padding-bottom: 16px; font-size: 18px; font-weight: 500;}
 }
+/* 0 ~ 970px */
+@media screen and (max-width: 970px){ 
+  .sticky-nav-tabs-container--top-first { top: 96px; } /* 년도 nav var 고정높이 */
+}
 /* 0 ~ 768px */
 @media screen and (max-width: 768px){
   /* 회사소개 */
@@ -160,7 +164,6 @@
     .C_A_second_content_text { font-size: 12px; }
 
   /* 회사연혁 */
-  .sticky-nav-tabs-container--top-first { top: 96px; } /* 년도 nav var 고정높이 */
   .H_contwrap .left>div { padding: 4em 0 0 .5em; }
   .H_contwrap .left>div h1 { padding: .5em 0 0 0; }
   .spa-slide h1 { font-size: 1rem; letter-spacing: .1rem; }
@@ -206,7 +209,6 @@
   .policy section dd {padding-bottom: 22px;}
   .policy section dt {padding-top: 19px; padding-bottom: 16px; font-size: 16px; font-weight: 500;}
 }
-
 
 
 
