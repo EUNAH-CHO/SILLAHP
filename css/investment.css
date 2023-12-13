@@ -29,6 +29,7 @@
 
 
 
+
 /* 투자정보 style */
 
 /* 1200px ~ 100% width사이즈 */
@@ -43,7 +44,7 @@
     .Disclosure01 .content #tab01 { width: 62%; }
 
     /*전자공고*/
-    .react_size { width: 50%; }
+    .react_size { width: 50%; float:left; }
   }
   /* 0 ~ 970px */
   @media screen and (max-width: 970px){ 
