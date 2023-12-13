@@ -40,6 +40,7 @@
 
   /* 경영이념 */
   .Management_cont2_img { height: 90vh; }
+  .Management_cont2_img_eng { height: 90vh; }
 
   /* 오시는길 */
   .kakaoMap_wrap { margin: 0 auto 280px; }
@@ -114,6 +115,7 @@
  
   /* 경영이념 */
   .Management_cont2_img { height: 90vh; }
+  .Management_cont2_img_eng { height: 90vh; }
 
   /* 오시는길 */
   .kakaoMap_wrap { margin: 0 auto 270px; }
@@ -175,6 +177,7 @@
  
   /* 경영이념 */
   .Management_cont2_img { height: 50vh; }
+  .Management_cont2_img_eng { height: 50vh; }
 
   /* 오시는길 */
   .kakaoMap_wrap { margin: 0 auto 200px; }
@@ -770,6 +773,12 @@ color: #333;
 .Management_cont2_img {
   width: 100%; margin: 0 auto;
     background: url('../img/about/M_P_content2_img.png') no-repeat;
+        background-size: contain;
+        background-position: center center;
+}
+.Management_cont2_img_eng {
+  width: 100%; margin: 0 auto;
+    background: url('../img/about/M_P_content2_img_eng.png') no-repeat;
         background-size: contain;
         background-position: center center;
 }
