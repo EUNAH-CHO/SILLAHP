@@ -1,0 +1,390 @@
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 840px) {
+    
+    .fz_s {font-size: 4vw !important; line-height: 1.4;}
+
+    .hide-m {display: none !important;}
+    .ta-1 a { text-align: center; }
+
+    .list-group table tbody td {text-align: left; padding-left: 7vw; }
+    .list-group table tbody th, .list-group table tbody td {vertical-align: middle; padding: 4vw 2vw;}
+    .list-group table a.tit {display: inline-block; overflow: hidden; display: -webkit-box; 
+        -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+    .list-group table td .date {font-size: 3.6vw; margin-top: 3vw;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 투자정보 style */
+
+/* 1200px ~ 100% width사이즈 */
+@media screen and (min-width: 1200px){
+    .Disclosure01 .content #tab01 { width: 50%; }
+  }
+  /* 768px ~ 1200px */
+  @media screen and (min-width: 768px) and (max-width: 1200px){
+    .Disclosure01 .content #tab01 { width: 62%; }
+  }
+  /* 0 ~ 970px */
+  @media screen and (max-width: 970px){ 
+    .Disclosure01 .content #tab01 { width: 100%; }
+  }
+  /* 0 ~ 768px */
+  @media screen and (max-width: 768px){
+    .list-group table tbody tr { border-top: 3px solid #2980B9; }
+    .list-group table tbody td { width: 100%; display: block; }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S: 전자공고 */
+.list-group table {width: 100%; border-top: 2px solid #2980B9;}
+.list-group table {border-collapse: collapse; border-spacing: 0;}
+.list-group table thead th, .list-group .text tbody td {vertical-align: middle; padding: 16px 18px; 
+    border-top: solid 1px #e5e5e5; text-align: center; vertical-align: middle; }
+.list-group table thead th {background-color: #2980B9; color: white; font-weight: 700; text-align: center;}
+.list-group .text tbody td {text-align: center;}
+.list-group table a.tit{display: inline-block; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;}
+
+.ta-1 {text-align: left !important;}
+.ta-r {text-align: right !important;}
+.ta-c {text-align: center !important;}
+
+.view-m {display: block !important;}
+
+.list-group table {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.list-group table:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+#loop table a {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+}
+
+#loop tbody tr:hover {
+    background-color: #e5e5e5;
+    border-radius: 1.5rem;
+}
+
+.list-group table th {
+    color: green;
+    margin-bottom: 1rem;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .pagination {
+    list-style: none;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+nav .pagination li {
+    display: inline-block;
+}
+
+nav .pagination li:not(:last-child) {
+    margin-right: .3rem;
+}
+
+nav .pagination li a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.pagination > li > a, 
+.pagination > li > span {
+    background-color: white;
+    color: #2980B9;
+    border-radius: 100%;
+}
+
+.pagination > .active > a, 
+.pagination > .active > span {
+    background-color: #2980B9;
+    border-color: #2980B9;
+    color: white;
+}
+
+.container nav .pagination .current-page a:hover,
+.container nav .pagination .navi-previous a:hover,
+.container nav .pagination .navi-next a:hover {
+    background-color: #2980B9;
+    color: white;
+    border-radius: 15px;
+}
+
+#site-body h2 {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2%;
+    color: #000;
+}
+
+.Elec_download {
+    text-align: right;
+    width: 100%;
+    padding-right: 5rem;
+}
+.Elec_download a img {
+    width: 15px; margin-right: 7px;
+}
+/* E: 전자공고 */
+
+
+
+/* 투자정보 style */
+
+
+/* S:header */
+#Investment_visual {
+    width: 100%; 
+    padding: 6rem 0 3rem;
+    color: #fff;
+    background: url('../img/investment_visual.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    animation: 5s animate-plus forwards;
+    overflow: hidden;
+}
+#Investment_visual h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    padding-top: 6rem;
+    animation: 1s animate-up forwards;
+    opacity: 0;
+}
+#Investment_visual p {
+    width: 100%; height: 80px; 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 300;
+    opacity: 0;
+        animation: 1s animate-up forwards;
+        animation-delay: .3s;
+}@keyframes animate-up { 
+    from {transform: translateY(50px);
+    opacity: 0;}
+    to {transform: translateY(0px);
+    opacity: 1;}
+}
+/* E:header */
+
+/* S:Investment_pages */
+#Investment_pages h2 {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2%;
+    color: #000;
+}
+/* S:section01 */
+.Investment_first {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto; 
+    text-align: center;
+}
+.borderArea {
+    width:1px;
+    height: 70px;
+    border-left: 1px solid #2980b9;
+    margin: 0 auto 2rem;
+}
+.Investment_first h3 { padding-bottom: 1rem; }
+.Investment_first_cont_wrap {
+    background-color: #F6F8F8;
+    width: 100%;
+    margin-top: 4rem;
+}
+.Investment_first_content {
+    width: 40%; 
+    margin: 0 auto;
+    text-align: left;
+    padding: 4rem 0 2rem;
+}
+.Investment_first_content span {
+    color: #2980B9;
+}
+/* E:section01 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S:공시정보 */
+.Disclosure01 {
+    max-width: 1500px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+}
+.Disclousre01 .content {height: 1100px;}
+.Disclosure01 .content .tab_content {
+    text-align: center; 
+    display: inline-block; 
+    margin: 4rem 0;
+}
+
+.Disclosure01 .content #tab02 { width: 100%; }
+
+.container .button {
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-size: cover;
+}
+.pack_btn {
+    float: right;
+    /* border: solid 2px red; */
+}
+.pack_btn{
+    color: white;
+    width: 200px; 
+    margin: 0 auto 1rem;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    background: #2980B9;
+    border-radius: 50px; box-shadow: 50px #b1b1b1;
+    transition: all .3s linear;
+}
+.pack_btn:hover {
+    color: white;
+    opacity: 0.7;
+}
+.pack_btn img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+/* E:공시정보 */
+
+
+
+
+
+
+/* S:탭페이지 */
+.clearfix:before, .clearfix:after { 
+    content:" "; display:table; clear:both; height:0;
+}
+* html .clearfix {height:1%}
+.clearfix>li{float: left;}
+
+ul, li{list-style:none;}
+a{color:#2980B9; text-decoration:none;}
+
+.tab_menu {max-width:1500px; margin:34px auto 0;}
+.tab_menu ul li{
+    width:50%; 
+    text-align:center; line-height: 50px; 
+    background:#fff; border:1px solid #2980B9; box-sizing:border-box;
+    transition:0.5s all; 
+}
+
+.tab_menu ul li.active{background: #2980B9;}
+.tab_menu ul li.active a{color: #fff;}
+.tab_menu ul li {cursor:pointer;}
+/* E:탭페이지 */
+
+/* S:재무정보 */
+.tab_menu ul .F_I_tab_list {width: 25%;}
+
+.fn_list {
+    width: 100%;
+    margin: 0 0 100px auto;
+    text-align: center;
+    /* height : 500px; */
+    padding: 0;
+}
+
+.F_I_content {max-width: 1500px;}
+.F_I_content th {
+    height: 40px;
+}
+.F_I_content td {
+    border-top: solid 1px #e5e5e5;
+    height: 40px;
+}
+
+.fn_list td:first-child {text-align: left; padding-left: 10px;}
+.fn_list td {text-align: right; padding-right: 10px;}
+.fn_list tr.em.main > td:first-child {text-align: center;}
+.fn_list tr:first-child {background-color: #2980B9; color: white;}
+.fn_list tr:first-child > td {text-align: center; width: 25%;}
+.em {background: #EEEEEE;}
+
+.F_I_content a {text-indent: 2em;}
+/* E:재무정보 */
+
+/* S: 전자공고 서브페이지 */
+#site-body .container {margin: 40px auto;}
+/* .table-body td:first-child {padding: 30px 60px;} */
+.table-body ul > li {padding: 10px 0 5px 20px;}
+.table-body p {margin: 30px auto;}
+.bottom {padding: 80px 0; text-align: center;}
+/* E: 전자공고 서브페이지 */
