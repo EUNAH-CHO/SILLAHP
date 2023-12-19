@@ -379,10 +379,10 @@ h2 {
           font-weight: bold;
           padding: 12px 0 0 0;
       }
-      .R_B_esg_cont_R {
+      .R_B_family_cont_R {
         width: 30%; height: 390px;
         float:left;
-        background: url('../img/esg/tuna_subVisualImg.jpg') no-repeat;
+        background: url('../img/about/family_cont_img.jpg') no-repeat;
             background-size: cover;
             background-position: center center;
       }
