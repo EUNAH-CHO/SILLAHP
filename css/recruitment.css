@@ -145,6 +145,12 @@
     padding-bottom: 2%;
     color: #000;
 }
+#Personnel_S_pages h3 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1%;
+    color: #000;
+}
 
 /* S:section01 */
 .borderArea {
