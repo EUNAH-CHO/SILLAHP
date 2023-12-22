@@ -955,7 +955,7 @@ iframe{ border:1px solid #0084F0; padding-bottom:4px; box-shadow: 2px 2px 6px #9
   position: absolute; top: 1150px; z-index: 1;
 
 
-  background-color: #F7F7F7;
+  /*background-color: #F7F7F7;*/
   width: 100%;
 }
 .map_number {
@@ -977,7 +977,7 @@ iframe{ border:1px solid #0084F0; padding-bottom:4px; box-shadow: 2px 2px 6px #9
 .map_content2 {
   position: absolute; z-index: 1;
 
-  background-color: #F7F7F7;
+  /*background-color: #F7F7F7;*/
   width: 100%;
 }
 /* E:부산지사 */
