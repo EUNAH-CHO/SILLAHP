@@ -2,6 +2,7 @@
 /* 1200px ~ 100% width사이즈 */
 @media screen and (min-width: 1200px){
     /* visual 애니메이션 */
+    .header_subText { font-size: 20px; }
     @keyframes animate-plus { from {background-size: 180%; transition: .1s;} 
                                 to {background-size: 150%; transition: .1s;} }
     @keyframes animate-minus { from {background-size: 180%; transition: .1s;}
@@ -14,10 +15,18 @@
         .footer_list > .FooterArea:nth-child(3) { height: 12vh; /*margin-top: 54px;*/}
         .footer_security li { border-right: 1px solid #eee; }
         .dropdown { float: right; }
+
+    /* S:English Pages */
+    .C_A_second_content_eng { width: 25%; } /*회사소개*/
+    .map_box01_eng{ margin-top: 50px; } /*오시는길*/
+    .overview_contRight_eng { width: 65%; height: 70vh; float:left; } /*overview*/
+        .overview_contRight_eng h3 { padding-top: 30px; } /*overview*/
+    /* E:English Pages */
 }
 /* 768px ~ 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px){
     /* visual 애니메이션 */
+    .header_subText { font-size: 20px; }
     @keyframes animate-plus { from {background-size: 230%; transition: .1s;} 
                                 to {background-size: 200%; transition: .1s;} }
     @keyframes animate-minus { from {background-size: 230%; transition: .1s;}
@@ -31,6 +40,13 @@
         .footer_list > .FooterArea:nth-child(3) { height: 12vh; margin-top: 54px;}
         .footer_security li { border-right: 1px solid #eee; }
         .dropdown { float: right; }
+
+    /* S:English Pages */
+    .C_A_second_content_eng { width: 25%; } /* 회사소개 */
+    .map_box01_eng{ margin-top: 40px; } /*오시는길*/
+    .overview_contRight_eng { width: 65%; height: 70vh; float:left; } /*overview*/
+        .overview_contRight_eng h3 { padding-top: 20px; } /*overview*/
+    /* E:English Pages */
 }
 /* 768px ~ 970px */
 @media screen and (min-width: 768px) and (max-width: 970px){
@@ -40,6 +56,7 @@
 /* 0 ~ 768px */
 @media screen and (max-width: 768px){
     /* visual 애니메이션 */
+    .header_subText { font-size: 12px; }
     @keyframes animate-plus { from {background-size: 730%; transition: .1s;} 
                                 to {background-size: 600%; transition: .1s;} }
     @keyframes animate-minus { from {background-size: 730%; transition: .1s;}
@@ -54,6 +71,14 @@
         .footer_security li { border-right: 0; }
         .dropdown { margin: 10% 0 0 7%; float: left; }
     #scrollTopMob { opacity: 1; }
+
+    /* S:English Pages */
+    .C_A_second_content_eng { width: 50%; } /*회사소개*/
+    .map_box01{ margin-top: 40px; } /*오시는길*/
+    .map_box01_eng { margin-top: 1rem; } /*오시는길*/
+    .overview_contRight_eng { width: 100%; margin-top: 40px; } /*overview*/
+        .overview_contRight_eng h3 { padding-top: 20px; } /*overview*/
+    /* E:English Pages */
 }
 
 
@@ -283,4 +308,53 @@ footer {
   }
 
 /* E:FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S: English Pages */
+  /* S:회사소개 */
+  .C_A_second_content_eng {
+      float:left;
+      transition: all 0.2s linear;
+  }
+  .C_A_second_content_eng:hover { transform: scale(1.08);}
+  .C_A_second_content_eng > div {
+      margin: 5%; padding-top: 12%;
+      height:35vh;
+      border-radius: 20px;
+      background-color: #f1f1f1;       
+  }
+  /* S:회사소개 */
+
+  /* S:오시는길 */
+  .map_box01_eng{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 65%;
+  }
+  /* E:오시는길 */
+
+  /* S:Overview */
+  .overview_contRight_eng h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  .overview_contRight_eng p { font-size: 14px; }
+  /* E:Overview */
+/* E: English Pages */
 
