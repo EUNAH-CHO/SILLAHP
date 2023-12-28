@@ -86,7 +86,7 @@
   .C_A_second_cont_wrap { max-width: 90%; }
     .C_A_second_content { width: 25%; }
     .C_A_second_content > div { padding: 0 5px; }
-    .C_A_second_content_text { font-size: 14px; }
+    .C_A_second_content_text { font-size: 12px; padding: 0 1rem; }
 
   /* 회사연혁 */
   .sticky-nav-tabs-container--top-first { top: 75px; } /* 년도 nav var 고정높이 */
