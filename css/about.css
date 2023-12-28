@@ -76,8 +76,8 @@
   .policy section dd {padding-bottom: 22px;}
   .policy section dt {padding-top: 38px; padding-bottom: 16px; font-size: 18px; font-weight: 500;}
 }
-/* 1200px ~ 1500px width사이즈 */
-@media screen and (min-width: 1200px) and (max-width: 1500px){ .C_A_second_content_text { font-size: 12px; padding: 0 1rem; } }
+/* 1200px ~ 1600px width사이즈 */
+@media screen and (min-width: 1200px) and (max-width: 1600px){ .C_A_second_content_text { font-size: 12px; padding: 0 1rem; } }
 /* 768px ~ 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px){
   /* 회사소개 */
