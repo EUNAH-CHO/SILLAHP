@@ -43,6 +43,7 @@
 
     /* S:English Pages */
     .C_A_second_content_eng { width: 25%; } /* 회사소개 */
+        .company_A_text_cont_eng { font-size: 13px; }
     .map_box01_eng{ margin-top: 40px; } /*오시는길*/
     .overview_contRight_eng { width: 65%; height: 70vh; float:left; } /*overview*/
         .overview_contRight_eng h3 { padding-top: 20px; } /*overview*/
@@ -74,6 +75,7 @@
 
     /* S:English Pages */
     .C_A_second_content_eng { width: 50%; } /*회사소개*/
+        .company_A_text_cont_eng { font-size: 10px; }
     .map_box01{ margin-top: 40px; } /*오시는길*/
         .map_box01_eng { margin-top: 1rem; } 
     .overview_contRight_eng { width: 100%; margin-top: 40px; } /*overview*/
@@ -114,7 +116,7 @@ h1 {
 }
 .header_subText {
     margin-top: 15px;
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.4;
     font-weight: 300;
 }
