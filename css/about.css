@@ -10,7 +10,6 @@
     .C_A_text_subtitle2 { font-size: 30px; }
   .C_A_second_cont_wrap { max-width: 1200px; }
     .C_A_second_content { width: 25%; }
-    .C_A_second_content_text { font-size: 14px; padding: 0 1rem; }
  
   /* 회사연혁 */
   .sticky-nav-tabs-container--top-first { top: 75px; } /* 년도 nav var 고정높이 */
@@ -77,6 +76,8 @@
   .policy section dd {padding-bottom: 22px;}
   .policy section dt {padding-top: 38px; padding-bottom: 16px; font-size: 18px; font-weight: 500;}
 }
+/* 1200px ~ 1500px width사이즈 */
+@media screen and (min-width: 1200px) and (max-width: 1500px){ .C_A_second_content_text { font-size: 12px; padding: 0 1rem; } }
 /* 768px ~ 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px){
   /* 회사소개 */
