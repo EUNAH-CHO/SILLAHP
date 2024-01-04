@@ -858,6 +858,7 @@ position: relative; z-index: 1000;
 max-width: 1000px; height: 400px; margin: 0 auto;
 background-color: white;
 border-top: 10px solid #065B89;
+border-radius: 0 0 50px 50px;
 position: relative; top: -200px; z-index: 1001;
 }
 .R_B_Fishery_cont_L {
