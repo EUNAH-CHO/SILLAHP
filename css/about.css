@@ -370,6 +370,7 @@ h2 {
   max-width: 1000px; height: 400px; margin: 0 auto 200px;
   background-color: white;
   border-top: 10px solid #065B89;
+  border-radius: 0 0 50px 50px;
   position: relative; top: 0; z-index: 1001;
   }
   .R_B_Fishery_cont_L {
